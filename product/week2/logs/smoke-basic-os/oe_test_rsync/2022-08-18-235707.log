@@ -1,0 +1,8 @@
+Thu Aug 18 23:57:10 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:57:48 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:57:49 2022 - INFO  - Start testing...
+Thu Aug 18 23:57:51 2022 - INFO  - Finish test!
+Thu Aug 18 23:57:52 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:57:52 2022 - INFO  - start environment cleanup.
+setenforce: SELinux is disabled
+Thu Aug 18 23:58:10 2022 - INFO  - Finish environment cleanup!

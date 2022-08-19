@@ -1,0 +1,10 @@
+Thu Aug 18 23:52:43 2022 - INFO  - Start environment preparation.
+ls: cannot access '/tmp/test1': No such file or directory
+ls: cannot access '/tmp/test2': No such file or directory
+Thu Aug 18 23:52:44 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:52:44 2022 - INFO  - Start testing...
+Usage: mv [OPTION]... [-T] SOURCE DEST
+Thu Aug 18 23:52:45 2022 - INFO  - Finish test!
+Thu Aug 18 23:52:46 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:52:46 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:52:47 2022 - INFO  - Finish environment cleanup!

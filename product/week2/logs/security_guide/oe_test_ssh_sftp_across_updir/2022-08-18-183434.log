@@ -1,0 +1,23 @@
+Thu Aug 18 18:34:37 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:34:38 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:34:38 2022 - INFO  - Start executing testcase.
+drwxr-xr-x   2 root root  4096 Aug 18 18:34 sftp
+sftpuser:x:1001:1001::/home/sftpuser:/sbin/nologin
+New password: Retype new password: Changing password for user sftpuser.
+passwd: all authentication tokens updated successfully.
+drwxr-xr-x 2 root root 4096 Aug 18 18:34 sftpuser
+spawn ssh sftpuser@127.0.0.1
+sftpuser@127.0.0.1's password: 
+This service allows sftp connections only.
+Connection to 127.0.0.1 closed.
+This service allows sftp connections only.
+spawn sftp sftpuser@127.0.0.1
+sftpuser@127.0.0.1's password: 
+Connected to 127.0.0.1.
+sftp> cd /sftp
+Couldn't stat remote file: No such file or directory
+sftp> Couldn't stat remote file: No such file or directory
+Thu Aug 18 18:35:27 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:35:28 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:35:29 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:35:41 2022 - INFO  - Finish environment cleanup!

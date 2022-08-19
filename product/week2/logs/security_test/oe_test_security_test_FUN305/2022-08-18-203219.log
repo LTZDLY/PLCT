@@ -1,0 +1,9 @@
+Thu Aug 18 20:32:22 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 20:32:22 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 20:32:23 2022 - INFO  - Start to run test.
+/home/Jevons
+oe_test_security_test_FUN305.sh: line 34: CHECK_RESULR: command not found
+Thu Aug 18 20:32:25 2022 - INFO  - End to run test.
+Thu Aug 18 20:32:26 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:32:26 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:32:27 2022 - INFO  - End to restore the test environment.

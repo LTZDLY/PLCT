@@ -1,0 +1,13 @@
+Fri Aug 19 00:00:41 2022 - INFO  - Start environment preparation.
+Fri Aug 19 00:01:14 2022 - INFO  - End of environmental preparation!
+Fri Aug 19 00:01:14 2022 - INFO  - Start testing...
+ readahead     = 256 (on)
+ readonly      =  0 (off)
+ HDIO_DRIVE_CMD(flushcache) failed: Invalid argument
+
+/dev/loop0:
+Fri Aug 19 00:01:15 2022 - ERROR - oe_test_hdparm.sh line 36
+Fri Aug 19 00:01:16 2022 - INFO  - Finish test!
+Fri Aug 19 00:01:16 2022 - ERROR - failed to execute the case.
+Fri Aug 19 00:01:17 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:01:28 2022 - INFO  - Finish environment cleanup!

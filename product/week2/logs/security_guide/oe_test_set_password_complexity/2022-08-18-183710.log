@@ -1,0 +1,27 @@
+Thu Aug 18 18:37:13 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:37:14 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:37:15 2022 - INFO  - Start executing testcase.
+New password: BAD PASSWORD: The password is shorter than 8 characters
+New password: BAD PASSWORD: The password is shorter than 8 characters
+New password: Password change has been aborted.
+passwd: Authentication token manipulation error
+Changing password for user test.
+New password: BAD PASSWORD: The password contains less than 3 character classes
+New password: BAD PASSWORD: The password contains less than 3 character classes
+New password: Password change has been aborted.
+passwd: Authentication token manipulation error
+Changing password for user test.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+New password: Retype new password: Password has been already used. Choose another.
+passwd: Have exhausted maximum number of retries for service
+Changing password for user test.
+New password: BAD PASSWORD: The password is shorter than 8 characters
+New password: BAD PASSWORD: The password is shorter than 8 characters
+New password: BAD PASSWORD: The password is shorter than 8 characters
+passwd: Have exhausted maximum number of retries for service
+Changing password for user test.
+Thu Aug 18 18:37:24 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:37:25 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:37:26 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:37:27 2022 - INFO  - Finish environment cleanup!

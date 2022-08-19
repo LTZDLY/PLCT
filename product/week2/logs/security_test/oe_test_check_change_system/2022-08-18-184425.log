@@ -1,0 +1,20 @@
+Thu Aug 18 18:44:27 2022 - INFO  - Start executing testcase.
+DEFAULT
+Setting system policy to FUTURE
+Note: System-wide crypto policies are applied on application start-up.
+It is recommended to restart the system for the change of policies
+to fully take place.
+FUTURE
+Setting system policy to LEGACY
+Note: System-wide crypto policies are applied on application start-up.
+It is recommended to restart the system for the change of policies
+to fully take place.
+LEGACY
+Thu Aug 18 18:44:35 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:44:35 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:44:36 2022 - INFO  - start environment cleanup.
+Setting system policy to DEFAULT
+Note: System-wide crypto policies are applied on application start-up.
+It is recommended to restart the system for the change of policies
+to fully take place.
+Thu Aug 18 18:44:38 2022 - INFO  - Finish environment cleanup!

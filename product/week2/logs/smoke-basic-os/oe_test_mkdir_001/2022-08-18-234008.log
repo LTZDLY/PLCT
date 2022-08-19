@@ -1,0 +1,9 @@
+Thu Aug 18 23:40:12 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:40:12 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:40:13 2022 - INFO  - Start testing...
+drwxrwxrwx 2 root root   40 Aug 18 23:40 test5
+Usage: mkdir [OPTION]... DIRECTORY...
+Thu Aug 18 23:40:14 2022 - INFO  - Finish test!
+Thu Aug 18 23:40:15 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:40:15 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:40:16 2022 - INFO  - Finish environment cleanup!

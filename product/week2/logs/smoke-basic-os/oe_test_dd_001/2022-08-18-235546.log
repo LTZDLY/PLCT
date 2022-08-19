@@ -1,0 +1,15 @@
+Thu Aug 18 23:55:49 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 23:55:50 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 23:55:50 2022 - INFO  - Start testing...
+1000+0 records in
+1000+0 records out
+1048576000 bytes (1.0 GB, 1000 MiB) copied, 21.7199 s, 48.3 MB/s
+Usage: dd [OPERAND]...
+ls: cannot access 'file': No such file or directory
+0+1 records in
+0+1 records out
+5 bytes copied, 0.00358515 s, 1.4 kB/s
+Thu Aug 18 23:56:13 2022 - INFO  - End test!
+Thu Aug 18 23:56:13 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:56:14 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:56:15 2022 - INFO  - Finish environment cleanup!

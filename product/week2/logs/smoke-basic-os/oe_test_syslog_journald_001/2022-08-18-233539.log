@@ -1,0 +1,10 @@
+Thu Aug 18 23:35:42 2022 - INFO  - Start to config params of the case.
+system@51c16b46227145f58555b599c40922f9-0000000000000001-0005e6826234a10a.journal
+system.journal
+Thu Aug 18 23:35:43 2022 - INFO  - End to config params of the case.
+Thu Aug 18 23:35:44 2022 - INFO  - Start to run test.
+#Storage=auto
+Thu Aug 18 23:35:46 2022 - INFO  - End to run test.
+Thu Aug 18 23:35:46 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:35:47 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 23:35:48 2022 - INFO  - End to restore the test environment.

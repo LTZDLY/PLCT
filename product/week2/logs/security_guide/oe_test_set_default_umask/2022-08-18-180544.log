@@ -1,0 +1,14 @@
+Thu Aug 18 18:05:46 2022 - INFO  - Start environmental preparation.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+Thu Aug 18 18:05:48 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:05:48 2022 - INFO  - Start executing testcase.
+       umask 022
+drwxr-xr-x 2 root root 4096 Aug 18 18:05 test1
+-rw-r--r-- 1 root root 0 Aug 18 18:05 test2
+drwxr-xr-x 2 test test 4096 Aug 18 18:05 test3
+-rw-r--r-- 1 test test 0 Aug 18 18:05 test4
+Thu Aug 18 18:05:57 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:05:58 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:05:58 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:05:59 2022 - INFO  - Finish environment cleanup!

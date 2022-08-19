@@ -1,0 +1,11 @@
+Thu Aug 18 18:33:25 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'testlog': No such file or directory
+Thu Aug 18 18:33:26 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:33:26 2022 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+/home/test/.local/bin:/home/test/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+Thu Aug 18 18:33:30 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:33:31 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:33:31 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:33:32 2022 - INFO  - Finish environment cleanup!

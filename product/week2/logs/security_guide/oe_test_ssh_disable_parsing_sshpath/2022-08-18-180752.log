@@ -1,0 +1,80 @@
+Thu Aug 18 18:07:55 2022 - INFO  - Start environmental preparation.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:07:56 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:07:57 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:07:57 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:07:58 2022 - ERROR - oe_test_ssh_disable_parsing_sshpath.sh line 31
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:07:59 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:07:59 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:08:00 2022 - ERROR - Failed in remote CMD operation:1
+spawn ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa
+Your public key has been saved in /root/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:MMB4VmVU0VXcfEZFoJMNW1wwUrn+dGeI2EC6m5i69H4 root@openEuler-riscv64
+The key's randomart image is:
++---[RSA 3072]----+
+|   o...o+.ooo+B@O|
+|  . +. .  . .Oo.*|
+|   o  o  o  = .o.|
+|       o. .  ..  |
+|        S. + o . |
+|        . . o o =|
+|    .  o o     +o|
+|   . .o E       .|
+|    o+o.         |
++----[SHA256]-----+
+-rw------- 1 root root 2610 Aug 18 18:08 id_rsa
+-rw-r--r-- 1 root root  576 Aug 18 18:08 id_rsa.pub
+spawn ssh-copy-id -i /root/.ssh/id_rsa.pub @
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+ERROR:            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+ERROR:            [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+ERROR:            [-i identity_file] [-J [user@]host[:port]] [-L address]
+ERROR:            [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+ERROR:            [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+ERROR:            [-w local_tun[:remote_tun]] destination [command [argument ...]]
+
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "password" {
+                send "\r"
+            }
+        }"
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "password:" {
+                send "\r"
+            }
+        } "
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:08:05 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:08:06 2022 - WARN  - the remote password uses the default configuration.
+Thu Aug 18 18:08:06 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r @:/root/.ssh/authorized_keys /home
+ssh: Could not resolve hostname : Name or service not known
+Thu Aug 18 18:08:07 2022 - ERROR - Failed in remote SCP operation: 1
+grep: /home/authorized_keys: No such file or directory
+Thu Aug 18 18:08:08 2022 - ERROR - oe_test_ssh_disable_parsing_sshpath.sh line 95
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:08:09 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:08:10 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:08:10 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:08:11 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:08:11 2022 - INFO  - Start cleanning environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:08:12 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:08:13 2022 - INFO  - Finish environment cleanup!

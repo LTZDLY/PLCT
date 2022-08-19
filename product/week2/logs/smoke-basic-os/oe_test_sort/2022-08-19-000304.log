@@ -1,0 +1,10 @@
+Fri Aug 19 00:03:07 2022 - INFO  - Start environment preparation.
+Fri Aug 19 00:03:08 2022 - INFO  - End of environmental preparation!
+Fri Aug 19 00:03:08 2022 - INFO  - Start testing...
+sort: sort_test.txt:3: disorder:  openeuler
+   aa
+hello
+Fri Aug 19 00:03:09 2022 - INFO  - Finish test!
+Fri Aug 19 00:03:10 2022 - INFO  - succeed to execute the case.
+Fri Aug 19 00:03:10 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:03:11 2022 - INFO  - Finish environment cleanup!

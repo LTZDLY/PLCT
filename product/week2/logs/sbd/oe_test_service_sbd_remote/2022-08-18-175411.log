@@ -1,0 +1,24 @@
+Thu Aug 18 17:54:14 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 17:54:44 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 17:54:45 2022 - INFO  - Start to run test.
+Unit sbd_remote.service could not be found.
+Thu Aug 18 17:54:46 2022 - ERROR - There is an error for the status of sbd_remote.service
+Thu Aug 18 17:54:47 2022 - ERROR - oe_test_service_sbd_remote.sh line 31
+Thu Aug 18 17:54:47 2022 - ERROR - Check sbd_remote.service failed
+Thu Aug 18 17:54:48 2022 - ERROR - oe_test_service_sbd_remote.sh line 33
+Thu Aug 18 17:54:49 2022 - ERROR - Check sbd_remote.service failed
+Thu Aug 18 17:54:49 2022 - ERROR - oe_test_service_sbd_remote.sh line 35
+Thu Aug 18 17:54:50 2022 - ERROR - Check sbd_remote.service failed
+Thu Aug 18 17:54:51 2022 - ERROR - oe_test_service_sbd_remote.sh line 37
+Failed to get unit file state for sbd_remote.service: No such file or directory
+Thu Aug 18 17:54:51 2022 - INFO  - Unit is indirect, ignoring.
+Thu Aug 18 17:54:52 2022 - INFO  - End of the test.
+Thu Aug 18 17:54:53 2022 - ERROR - failed to execute the case.
+Thu Aug 18 17:54:53 2022 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Last metadata expiration check: 3:27:22 ago on Thu 18 Aug 2022 02:27:21 PM CST.\nNo match for argument: sbd\nError: Unable to find a match: sbd'
+Thu Aug 18 17:54:56 2022 - INFO  - Finish environment cleanup!

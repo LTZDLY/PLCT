@@ -1,0 +1,9 @@
+Thu Aug 18 18:04:51 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'test.txt': No such file or directory
+Thu Aug 18 18:04:52 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:04:53 2022 - INFO  - Start executing testcase.
+-rwxrwxrwx 1 bin bin 0 Aug 18 18:04 test.txt
+Thu Aug 18 18:04:54 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:04:54 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:04:55 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:04:56 2022 - INFO  - Finish environment cleanup!

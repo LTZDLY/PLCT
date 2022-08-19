@@ -1,0 +1,5 @@
+Thu Aug 18 23:05:19 2022 - INFO  - Start testing...
+Thu Aug 18 23:05:20 2022 - ERROR - oe_test_sevice_001.sh line 25
+Thu Aug 18 23:05:21 2022 - INFO  - Finish test!
+Thu Aug 18 23:05:21 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:05:22 2022 - INFO  - oe_test_sevice_001.sh post_test

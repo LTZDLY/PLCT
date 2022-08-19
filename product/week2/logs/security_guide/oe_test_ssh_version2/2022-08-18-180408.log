@@ -1,0 +1,30 @@
+Thu Aug 18 18:04:10 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'testlog': No such file or directory
+Thu Aug 18 18:04:11 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:04:12 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:04:12 2022 - ERROR - SSH protocol version is not 2
+Thu Aug 18 18:04:13 2022 - ERROR - oe_test_ssh_version2.sh line 30
+SSH protocol v.1 is no longer supported
+spawn ssh -2 root@127.0.0.1
+root@127.0.0.1's password: 
+Last login: Thu Aug 18 18:02:40 2022 from 127.0.0.1
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:04:30 PM CST 2022
+
+System load: 	[0;33;40m1.21[0m
+Processes: 	88
+Memory used: 	1.5%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	2
+
+
+]0;root@openEuler-riscv64:~[?2004h[root@openEuler-riscv64 ~]# System information as of time: 	Thu Aug 18 06:04:30 PM CST 2022
+Thu Aug 18 18:04:43 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:04:44 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:04:45 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:04:45 2022 - INFO  - Finish environment cleanup!

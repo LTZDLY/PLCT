@@ -1,0 +1,9 @@
+Thu Aug 18 23:56:21 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:56:22 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:56:22 2022 - INFO  - Start testing...
+oe_test_pwd_001.sh: line 30: cd: /etc/kernel: No such file or directory
+Thu Aug 18 23:56:23 2022 - ERROR - oe_test_pwd_001.sh line 32
+Thu Aug 18 23:56:24 2022 - INFO  - Finish test!
+Thu Aug 18 23:56:24 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:56:25 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:56:26 2022 - INFO  - Finish environment cleanup!

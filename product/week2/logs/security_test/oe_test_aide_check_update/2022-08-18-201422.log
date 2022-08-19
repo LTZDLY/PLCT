@@ -1,0 +1,41 @@
+Thu Aug 18 20:14:25 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 20:15:02 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 20:15:03 2022 - INFO  - Start executing testcase.
+Number of entries:	55139
+WARNING: tried to read access ACL on /usr/share/openscap/schemas/oval/5.10.1/unix-definitions-schema.xsd but failed with: No such file or directory
+WARNING: tried to read default ACL on /usr/share/openscap/schemas/oval/5.10.1/unix-definitions-schema.xsd but failed with: Invalid argument
+WARNING: listxattrs failed for /usr/share/openscap/schemas/oval/5.10.1/unix-definitions-schema.xsd:No such file or directory
+WARNING: lgetfilecon_raw failed for /usr/share/openscap/schemas/oval/5.10.1/unix-definitions-schema.xsd: No such file or directory
+WARNING: hash calculation: open() failed for /usr/share/openscap/schemas/oval/5.10.1/unix-definitions-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/windows-definitions-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-common-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-results-schematron.xsl: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-directives-schematron.xsl: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-variables-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-definitions-schematron.xsl: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/macos-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-results-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/ios-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/sharepoint-definitions-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/sharepoint-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/pixos-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-definitions-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/unix-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/linux-system-characteristics-schema.xsd: No such file or directory
+WARNING: get_file_status: lstat() failed for /usr/share/openscap/schemas/oval/5.10.1/oval-directives-schema.xsd: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.11: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.11.1: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.11.2: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.11.3: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.3: No such file or directory
+WARNING: open_dir() failed for /usr/share/openscap/schemas/oval/5.4: No such file or directory
+WARNING: open_dir() failed for /usr/share/rpmdevtools: No such file or directory
+free(): double free detected in tcache 2
+Thu Aug 18 20:22:48 2022 - ERROR - exec 'aide --check' failed
+Thu Aug 18 20:22:48 2022 - ERROR - oe_test_aide_check_update.sh line 34
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+Thu Aug 18 20:26:59 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 20:26:59 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:27:00 2022 - INFO  - start environment cleanup.
+Thu Aug 18 20:27:12 2022 - INFO  - Finish environment cleanup!

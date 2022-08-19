@@ -1,0 +1,24 @@
+Thu Aug 18 20:13:59 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 20:14:10 2022 - INFO  - pkgs:(expect scap-security-guide openscap) is already installed
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 20:14:11 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 20:14:12 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 20:14:12 2022 - INFO  - Start executing testcase.
+spawn oscap-ssh @ 22 oval eval --report /root/remote-vulnerability.html /usr/share/xml/scap/ssg/content/ssg-ol7-oval.xml
+Connecting to '@' on port '22'...
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+Failed to connect!
+grep: /root/remote-vulnerability.html: No such file or directory
+Thu Aug 18 20:14:14 2022 - ERROR - exec 'oscap-ssh' failed
+Thu Aug 18 20:14:14 2022 - ERROR - oe_test_scanning_remote_system.sh line 47
+Thu Aug 18 20:14:15 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 20:14:16 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:14:16 2022 - INFO  - start environment cleanup.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 20:14:17 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 20:14:18 2022 - WARN  - no thing to do.
+Thu Aug 18 20:14:18 2022 - INFO  - Finish environment cleanup!

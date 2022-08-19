@@ -1,0 +1,57 @@
+Thu Aug 18 21:14:06 2022 - INFO  - Start environmental preparation.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 168, in <module>
+    exitcode, output = rpm_install(args.pkgs, args.node, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 66, in rpm_install
+    conn = ssh_cmd.pssh_conn(
+  File "/root/mugen-riscv/libs/locallibs/ssh_cmd.py", line 53, in pssh_conn
+    conn.connect(ip, port, user, password, timeout=timeout)
+  File "/usr/lib/python3.9/site-packages/paramiko/client.py", line 340, in connect
+    to_try = list(self._families_and_addresses(hostname, port))
+  File "/usr/lib/python3.9/site-packages/paramiko/client.py", line 203, in _families_and_addresses
+    addrinfos = socket.getaddrinfo(
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Thu Aug 18 21:15:05 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 21:15:06 2022 - INFO  - Start executing testcase.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:15:10 2022 - ERROR - oe_test_selinux_booleands.sh line 32
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:15:14 2022 - ERROR - oe_test_selinux_booleands.sh line 34
+getsebool:  SELinux is disabled
+Thu Aug 18 21:15:15 2022 - ERROR - oe_test_selinux_booleands.sh line 36
+getsebool:  SELinux is disabled
+Thu Aug 18 21:15:16 2022 - ERROR - oe_test_selinux_booleands.sh line 38
+Could not change active booleans: Invalid boolean
+Could not change active booleans: Invalid boolean
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:15:20 2022 - ERROR - oe_test_selinux_booleands.sh line 42
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:15:24 2022 - ERROR - oe_test_selinux_booleands.sh line 44
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:15:25 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:15:25 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:15:26 2022 - ERROR - oe_test_selinux_booleands.sh line 47
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:15:27 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:15:27 2022 - ERROR - oe_test_selinux_booleands.sh line 49
+Thu Aug 18 21:15:28 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:15:29 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:15:29 2022 - INFO  - start environment cleanup.
+Could not change active booleans: Invalid boolean
+Could not change active booleans: Invalid boolean
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:15:30 2022 - ERROR - Failed in remote CMD operation:1
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 134, in rpm_remove
+    conn = ssh_cmd.pssh_conn(
+  File "/root/mugen-riscv/libs/locallibs/ssh_cmd.py", line 53, in pssh_conn
+    conn.connect(ip, port, user, password, timeout=timeout)
+  File "/usr/lib/python3.9/site-packages/paramiko/client.py", line 340, in connect
+    to_try = list(self._families_and_addresses(hostname, port))
+  File "/usr/lib/python3.9/site-packages/paramiko/client.py", line 203, in _families_and_addresses
+    addrinfos = socket.getaddrinfo(
+  File "/usr/lib64/python3.9/socket.py", line 954, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+Thu Aug 18 21:15:55 2022 - INFO  - Finish environment cleanup!

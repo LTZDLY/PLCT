@@ -1,0 +1,31 @@
+Thu Aug 18 23:39:45 2022 - INFO  - Start executing testcase.
+aide
+audit
+btmp
+cups
+dnf.librepo.log
+dnf.log
+dnf.log.1
+dnf.log.2
+dnf.rpm.log
+hawkey.log
+hawkey.log-20220812
+httpd
+lastlog
+ntpstats
+private
+README
+rebuilddb.log
+rpmpkgs
+rpmpkgs-20220812
+samba
+sanlock.log
+swtpm
+wtmp
+grep: /var/log/messages: No such file or directory
+Thu Aug 18 23:39:53 2022 - ERROR - oe_test_log_001.sh line 35
+Thu Aug 18 23:39:54 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 23:39:54 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:39:55 2022 - INFO  - start environment cleanup.
+oe_test_log_001.sh: line 42: kill: `': not a pid or valid job spec
+Thu Aug 18 23:39:56 2022 - INFO  - Finish environment cleanup!

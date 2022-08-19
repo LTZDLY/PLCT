@@ -1,0 +1,18 @@
+Thu Aug 18 20:32:06 2022 - INFO  - Start to run test.
+Job for iptables.service failed because the control process exited with error code.
+See "systemctl status iptables.service" and "journalctl -xeu iptables.service" for details.
+Thu Aug 18 20:32:07 2022 - ERROR - start failed
+Thu Aug 18 20:32:08 2022 - ERROR - oe_test_security_test_FUN339.sh line 26
+Thu Aug 18 20:32:09 2022 - ERROR - grep start failed
+Thu Aug 18 20:32:09 2022 - ERROR - oe_test_security_test_FUN339.sh line 28
+Thu Aug 18 20:32:10 2022 - ERROR - grep stop failed
+Thu Aug 18 20:32:11 2022 - ERROR - oe_test_security_test_FUN339.sh line 32
+Job for iptables.service failed because the control process exited with error code.
+See "systemctl status iptables.service" and "journalctl -xeu iptables.service" for details.
+Thu Aug 18 20:32:12 2022 - ERROR - start failed
+Thu Aug 18 20:32:13 2022 - ERROR - oe_test_security_test_FUN339.sh line 34
+Thu Aug 18 20:32:13 2022 - ERROR - grep start failed
+Thu Aug 18 20:32:14 2022 - ERROR - oe_test_security_test_FUN339.sh line 36
+Thu Aug 18 20:32:14 2022 - INFO  - End to run test.
+Thu Aug 18 20:32:15 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:32:16 2022 - INFO  - oe_test_security_test_FUN339.sh post_test

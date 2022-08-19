@@ -1,0 +1,30 @@
+Thu Aug 18 22:53:20 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 22:53:21 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 22:53:22 2022 - INFO  - Start to run test.
+Swap:              0           0           0
+Architecture:        riscv64
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Disk /dev/vda: 10 GiB, 10737418240 bytes, 20971520 sectors
+Disklabel type: dos
+Disk identifier: 0xd7a0aed9
+Device     Boot Start      End  Sectors Size Id Type
+/dev/vda1        2048 20971519 20969472  10G 83 Linux
+NAME="openEuler"
+PRETTY_NAME="openEuler 22.03 LTS"
+               Local time: Thu 2022-08-18 22:53:23 CST
+           Universal time: Thu 2022-08-18 14:53:23 UTC
+                 RTC time: Thu 2022-08-18 14:53:24
+Asia/Tokyo
+                Time zone: Asia/Tokyo (JST, +0900)
+   System Locale: LANG=en_US.UTF-8
+zh_CN.UTF-8
+zh_HK.UTF-8
+zh_SG.UTF-8
+zh_TW.UTF-8
+   System Locale: LANG=zh_CN.utf8
+   System Locale: LANG=en_US.UTF-8
+Thu Aug 18 22:53:26 2022 - INFO  - End to run test.
+Thu Aug 18 22:53:27 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 22:53:27 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 22:53:28 2022 - INFO  - End to restore the test environment.

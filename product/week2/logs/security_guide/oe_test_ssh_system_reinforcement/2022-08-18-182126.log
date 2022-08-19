@@ -1,0 +1,33 @@
+Thu Aug 18 18:21:29 2022 - INFO  - Start environmental preparation.
+SyslogFacility AUTHPRIV
+Thu Aug 18 18:21:29 2022 - ERROR - LogLevel is not VERBOSE
+Thu Aug 18 18:21:30 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 27
+Thu Aug 18 18:21:31 2022 - ERROR - X11Forwarding is not no
+Thu Aug 18 18:21:31 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 29
+Thu Aug 18 18:21:32 2022 - ERROR - IgnoreRhosts is not yes
+Thu Aug 18 18:21:33 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 31
+Thu Aug 18 18:21:34 2022 - ERROR - RhostsRSAAuthentication is not no
+Thu Aug 18 18:21:34 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 33
+Thu Aug 18 18:21:35 2022 - ERROR - grep 'Subsystem sftp /usr/libexec/openssh/sftp-server -l INFO -f AUTH' failed
+Thu Aug 18 18:21:36 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 35
+Thu Aug 18 18:21:36 2022 - ERROR - HostbasedAuthentication is not no
+Thu Aug 18 18:21:37 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 37
+Thu Aug 18 18:21:38 2022 - ERROR - grep 'Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-gcm@openssh.com,aes256-gcm@openssh.com,chacha20-poly1305@openssh.com' failed
+Thu Aug 18 18:21:38 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 39
+Thu Aug 18 18:21:39 2022 - ERROR - ClientAliveCountMax is not 0
+Thu Aug 18 18:21:40 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 41
+Thu Aug 18 18:21:40 2022 - ERROR - grep 'MACs hmac-sha2-512,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha2-256-etm@openssh.com' failed
+Thu Aug 18 18:21:41 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 43
+Thu Aug 18 18:21:42 2022 - ERROR - AllowTcpForwarding is not no
+Thu Aug 18 18:21:42 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 45
+Thu Aug 18 18:21:43 2022 - ERROR - Subsystem is not sftp
+Thu Aug 18 18:21:43 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 47
+Thu Aug 18 18:21:44 2022 - ERROR - GatewayPorts is not no
+Thu Aug 18 18:21:45 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 49
+Thu Aug 18 18:21:46 2022 - ERROR - PermitTunnel is not no
+Thu Aug 18 18:21:46 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 51
+Thu Aug 18 18:21:47 2022 - ERROR - grep KexAlgorithms failed
+Thu Aug 18 18:21:48 2022 - ERROR - oe_test_ssh_system_reinforcement.sh line 53
+Thu Aug 18 18:21:48 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:21:49 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:21:49 2022 - INFO  - oe_test_ssh_system_reinforcement.sh post_test

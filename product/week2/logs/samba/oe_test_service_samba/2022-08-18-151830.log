@@ -1,0 +1,51 @@
+Thu Aug 18 15:18:33 2022 - INFO  - Start environmental preparation.
+spawn samba-tool domain provision --use-rfc2307 --interactive --function-level=2008_R2
+Traceback (most recent call last):
+  File "/usr/bin/samba-tool", line 33, in <module>
+    from samba.netcmd.main import cmd_sambatool
+  File "/usr/lib64/python3.9/site-packages/samba/__init__.py", line 29, in <module>
+    import samba.param
+ImportError: libserver-role-samba4.so: cannot open shared object file: No such file or directory
+expect: spawn id exp4 not open
+    while executing
+"expect eof"
+cp: cannot stat '/var/lib/samba/private/krb5.conf': No such file or directory
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+Thu Aug 18 15:20:13 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 15:20:14 2022 - INFO  - Start testing...
+Job for samba.service failed because the control process exited with error code.
+See "systemctl status samba.service" and "journalctl -xeu samba.service" for details.
+Thu Aug 18 15:20:14 2022 - ERROR - samba.service restart failed
+Thu Aug 18 15:20:15 2022 - ERROR - ../common/common_lib.sh line 34
+Thu Aug 18 15:20:22 2022 - ERROR - samba.service restart failed
+Thu Aug 18 15:20:22 2022 - ERROR - ../common/common_lib.sh line 37
+Thu Aug 18 15:20:29 2022 - ERROR - samba.service stop failed
+Thu Aug 18 15:20:30 2022 - ERROR - ../common/common_lib.sh line 42
+Job for samba.service failed because the control process exited with error code.
+See "systemctl status samba.service" and "journalctl -xeu samba.service" for details.
+Thu Aug 18 15:20:30 2022 - ERROR - samba.service start failed
+Thu Aug 18 15:20:31 2022 - ERROR - ../common/common_lib.sh line 44
+Thu Aug 18 15:20:37 2022 - ERROR - samba.service start failed
+Thu Aug 18 15:20:38 2022 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/samba.service
+Removed /etc/systemd/system/multi-user.target.wants/samba.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/samba.service’: No such file or directory
+Aug 18 15:20:14 OE-TESTD samba[2341]: /usr/sbin/samba: error while loading shared libraries: libevents-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:20:14 OE-TESTD systemd[1]: samba.service: Failed with result 'exit-code'.
+Aug 18 15:20:14 OE-TESTD systemd[1]: Failed to start Samba AD Daemon.
+Aug 18 15:20:30 OE-TESTD samba[2361]: /usr/sbin/samba: error while loading shared libraries: libevents-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:20:30 OE-TESTD systemd[1]: samba.service: Failed with result 'exit-code'.
+Aug 18 15:20:30 OE-TESTD systemd[1]: Failed to start Samba AD Daemon.
+Thu Aug 18 15:20:47 2022 - ERROR - There is an error message for the log of samba.service
+Thu Aug 18 15:20:47 2022 - ERROR - ../common/common_lib.sh line 28
+samba.service is not active, cannot reload.
+Thu Aug 18 15:20:52 2022 - ERROR - samba.service reload failed
+Thu Aug 18 15:20:53 2022 - ERROR - oe_test_service_samba.sh line 62
+Thu Aug 18 15:20:54 2022 - ERROR - samba.service reload causes the service status to change
+Thu Aug 18 15:20:54 2022 - ERROR - oe_test_service_samba.sh line 64
+Thu Aug 18 15:20:55 2022 - INFO  - Finish test!
+Thu Aug 18 15:20:55 2022 - ERROR - failed to execute the case.
+Thu Aug 18 15:20:56 2022 - INFO  - start environment cleanup.
+samba.service is not active, cannot reload.
+Failed to start firewalld.service: Unit firewalld.service not found.
+Thu Aug 18 15:21:25 2022 - INFO  - Finish environment cleanup!

@@ -1,0 +1,38 @@
+Thu Aug 18 21:02:05 2022 - INFO  - Start environmental preparation.
+oe_test_selinux_confining_regular_user.sh: line 24: semanage: command not found
+oe_test_selinux_confining_regular_user.sh: line 25: semanage: command not found
+Thu Aug 18 21:02:06 2022 - INFO  - End of environmental preparation.
+Thu Aug 18 21:02:07 2022 - INFO  - Start executing testcase.
+oe_test_selinux_confining_regular_user.sh: line 31: semanage: command not found
+oe_test_selinux_confining_regular_user.sh: line 32: semanage: command not found
+Thu Aug 18 21:02:07 2022 - ERROR - Check user_u failed
+Thu Aug 18 21:02:08 2022 - ERROR - oe_test_selinux_confining_regular_user.sh line 33
+New password: Retype new password: Changing password for user example.
+passwd: all authentication tokens updated successfully.
+spawn ssh example@localhost
+example@localhost's password: 
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 09:02:22 PM CST 2022
+
+System load: 	[0;33;40m1.26[0m
+Processes: 	90
+Memory used: 	1.6%
+Swap used: 	0.0%
+Usage On: 	37%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;example@openEuler-riscv64:~id -Z
+[?2004h[example@openEuler-riscv64 ~]$ id -Z
+[?2004lid: --context (-Z) works only on an SELinux-enabled kernel
+]0;example@openEuler-riscv64:~[?2004h[example@openEuler-riscv64 ~]$ Thu Aug 18 21:02:33 2022 - ERROR - Check id user_u:user_r:user_t failed
+Thu Aug 18 21:02:33 2022 - ERROR - oe_test_selinux_confining_regular_user.sh line 60
+Thu Aug 18 21:02:34 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:02:34 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:02:35 2022 - INFO  - start environment cleanup.
+userdel: -Z requires SELinux enabled kernel
+oe_test_selinux_confining_regular_user.sh: line 67: semanage: command not found
+Thu Aug 18 21:02:36 2022 - INFO  - Finish environment cleanup!

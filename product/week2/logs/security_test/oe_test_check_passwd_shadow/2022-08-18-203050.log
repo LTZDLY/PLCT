@@ -1,0 +1,9 @@
+Thu Aug 18 20:30:52 2022 - INFO  - Start executing testcase.
+-rw-r--r-- 1 root root 1472 Aug 18 20:28 /etc/passwd
+---------- 1 root root 899 Aug 18 20:28 /etc/shadow
+New password: Retype new password: Changing password for user example.
+passwd: all authentication tokens updated successfully.
+Thu Aug 18 20:30:54 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 20:30:55 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:30:55 2022 - INFO  - start environment cleanup.
+Thu Aug 18 20:30:56 2022 - INFO  - Finish environment cleanup!

@@ -1,0 +1,11 @@
+Thu Aug 18 23:05:27 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:05:28 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:05:29 2022 - INFO  - Start testing...
+.
+..
+drwxr-xr-x   3 root root  4096 Aug 18 21:08 home
+Usage: ls [OPTION]... [FILE]...
+Thu Aug 18 23:05:29 2022 - INFO  - Finish test!
+Thu Aug 18 23:05:30 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:05:31 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:05:31 2022 - INFO  - Finish environment cleanup!

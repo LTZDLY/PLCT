@@ -1,0 +1,9 @@
+Thu Aug 18 19:42:57 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 19:42:57 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 19:42:58 2022 - INFO  - Start to run test.
+0022
+-rw-rw-r-- 1 root root    0 Aug 18 19:42 file1
+Thu Aug 18 19:42:58 2022 - INFO  - End to run test.
+Thu Aug 18 19:42:59 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 19:43:00 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 19:43:00 2022 - INFO  - End to restore the test environment.

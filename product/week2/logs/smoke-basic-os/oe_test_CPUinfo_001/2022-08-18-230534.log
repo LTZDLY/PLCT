@@ -1,0 +1,24 @@
+Thu Aug 18 23:05:37 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 23:05:38 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 23:05:38 2022 - INFO  - Start testing...
+CPU(s):              4
+Thu Aug 18 23:05:39 2022 - ERROR - oe_test_CPUinfo_001.sh line 35
+oe_test_CPUinfo_001.sh: line 37: lshw: command not found
+Thu Aug 18 23:05:40 2022 - ERROR - oe_test_CPUinfo_001.sh line 38
+Thu Aug 18 23:35:35 2022 - ERROR - Timeout : Command 'bash oe_test_CPUinfo_001.sh' timed out after 1799.998545593 seconds
+grep: (standard input): Input/output error
+grep: (standard input): Input/output error
+Fri Aug 19 00:13:03 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:13:04 2022 - INFO  - Finish environment cleanup!
+Fri Aug 19 00:13:04 2022 - ERROR - oe_test_CPUinfo_001.sh line 46
+oe_test_CPUinfo_001.sh: line 48: dmidecode: command not found
+oe_test_CPUinfo_001.sh: line 53: lshw: command not found
+oe_test_CPUinfo_001.sh: line 54: lshw: command not found
+fdisk: cannot open : No such file or directory
+fdisk: cannot open : No such file or directory
+oe_test_CPUinfo_001.sh: line 69: [: : integer expression expected
+Fri Aug 19 00:13:05 2022 - ERROR - oe_test_CPUinfo_001.sh line 70
+Fri Aug 19 00:13:06 2022 - INFO  - Finish test!
+Fri Aug 19 00:13:07 2022 - ERROR - failed to execute the case.
+Fri Aug 19 00:13:07 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:13:08 2022 - INFO  - Finish environment cleanup!

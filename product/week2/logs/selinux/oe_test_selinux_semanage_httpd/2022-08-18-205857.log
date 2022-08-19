@@ -1,0 +1,23 @@
+Thu Aug 18 20:59:00 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 21:00:27 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 21:00:28 2022 - INFO  - Start executing testcase.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:00:32 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 34
+Error while opening file contexts database: No such file or directory
+Thu Aug 18 21:00:33 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 39
+Cannot set persistent booleans without managed policy.
+Thu Aug 18 21:00:33 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 43
+getsebool:  SELinux is disabled
+Thu Aug 18 21:00:34 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 45
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:00:38 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 47
+     Active: active (running) since Thu 2022-08-18 21:00:43 CST; 222ms ago
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:00:48 2022 - ERROR - oe_test_selinux_semanage_httpd.sh line 53
+Thu Aug 18 21:00:48 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:00:49 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:00:49 2022 - INFO  - start environment cleanup.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Cannot set persistent booleans without managed policy.
+Thu Aug 18 21:01:24 2022 - INFO  - Finish environment cleanup!

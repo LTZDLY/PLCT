@@ -1,0 +1,40 @@
+Thu Aug 18 15:14:18 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 15:15:12 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 15:15:12 2022 - INFO  - Start testing...
+Job for winbind.service failed because the control process exited with error code.
+See "systemctl status winbind.service" and "journalctl -xeu winbind.service" for details.
+Thu Aug 18 15:15:13 2022 - ERROR - winbind.service restart failed
+Thu Aug 18 15:15:14 2022 - ERROR - ../common/common_lib.sh line 34
+Thu Aug 18 15:15:21 2022 - ERROR - winbind.service restart failed
+Thu Aug 18 15:15:21 2022 - ERROR - ../common/common_lib.sh line 37
+Thu Aug 18 15:15:28 2022 - ERROR - winbind.service stop failed
+Thu Aug 18 15:15:29 2022 - ERROR - ../common/common_lib.sh line 42
+Job for winbind.service failed because the control process exited with error code.
+See "systemctl status winbind.service" and "journalctl -xeu winbind.service" for details.
+Thu Aug 18 15:15:29 2022 - ERROR - winbind.service start failed
+Thu Aug 18 15:15:30 2022 - ERROR - ../common/common_lib.sh line 44
+Thu Aug 18 15:15:37 2022 - ERROR - winbind.service start failed
+Thu Aug 18 15:15:37 2022 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/winbind.service
+Removed /etc/systemd/system/multi-user.target.wants/winbind.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/winbind.service’: No such file or directory
+Aug 18 15:15:13 openEuler-riscv64 winbindd[1832]: /usr/sbin/winbindd: error while loading shared libraries: libflag-mapping-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:15:13 openEuler-riscv64 systemd[1]: winbind.service: Failed with result 'exit-code'.
+Aug 18 15:15:13 openEuler-riscv64 systemd[1]: Failed to start Samba Winbind Daemon.
+Aug 18 15:15:29 openEuler-riscv64 winbindd[1852]: /usr/sbin/winbindd: error while loading shared libraries: libflag-mapping-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:15:29 openEuler-riscv64 systemd[1]: winbind.service: Failed with result 'exit-code'.
+Aug 18 15:15:29 openEuler-riscv64 systemd[1]: Failed to start Samba Winbind Daemon.
+Thu Aug 18 15:15:46 2022 - ERROR - There is an error message for the log of winbind.service
+Thu Aug 18 15:15:47 2022 - ERROR - ../common/common_lib.sh line 28
+Job for winbind.service failed because the control process exited with error code.
+See "systemctl status winbind.service" and "journalctl -xeu winbind.service" for details.
+winbind.service is not active, cannot reload.
+Thu Aug 18 15:15:52 2022 - ERROR - winbind.service reload failed
+Thu Aug 18 15:15:53 2022 - ERROR - oe_test_service_winbind.sh line 40
+Thu Aug 18 15:15:54 2022 - ERROR - winbind.service reload causes the service status to change
+Thu Aug 18 15:15:54 2022 - ERROR - oe_test_service_winbind.sh line 42
+Thu Aug 18 15:15:55 2022 - INFO  - Finish test!
+Thu Aug 18 15:15:56 2022 - ERROR - failed to execute the case.
+Thu Aug 18 15:15:56 2022 - INFO  - start environment cleanup.
+winbind.service is not active, cannot reload.
+Thu Aug 18 15:16:20 2022 - INFO  - Finish environment cleanup!

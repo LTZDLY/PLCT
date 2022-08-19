@@ -1,0 +1,11 @@
+Thu Aug 18 23:58:16 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:58:17 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:58:18 2022 - INFO  - Start testing...
+/root/mugen-riscv/testcases/smoke-test/smoke-basic-os/oe_test_cd_002/example
+/root/mugen-riscv/testcases/smoke-test/smoke-basic-os/oe_test_cd_002
+/root/mugen-riscv/testcases/smoke-test/smoke-basic-os/oe_test_cd_002/example
+/root/mugen-riscv/testcases/smoke-test/smoke-basic-os/oe_test_cd_002/example
+Thu Aug 18 23:58:18 2022 - INFO  - Finish test!
+Thu Aug 18 23:58:19 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:58:20 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:58:20 2022 - INFO  - Finish environment cleanup!

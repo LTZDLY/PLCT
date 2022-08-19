@@ -1,0 +1,27 @@
+Thu Aug 18 23:35:54 2022 - INFO  - Start testing...
+Linux
+5.10.0
+riscv64
+Linux openEuler-riscv64 5.10.0 #1 SMP Wed May 18 01:09:23 UTC 2022 riscv64 riscv64 riscv64 GNU/Linux
+Usage: uname [OPTION]...
+Print certain system information.  With no OPTION, same as -s.
+
+  -a, --all                print all information, in the following order,
+                             except omit -p and -i if unknown:
+  -s, --kernel-name        print the kernel name
+  -n, --nodename           print the network node hostname
+  -r, --kernel-release     print the kernel release
+  -v, --kernel-version     print the kernel version
+  -m, --machine            print the machine hardware name
+  -p, --processor          print the processor type (non-portable)
+  -i, --hardware-platform  print the hardware platform (non-portable)
+  -o, --operating-system   print the operating system
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation <https://www.gnu.org/software/coreutils/uname>
+or available locally via: info '(coreutils) uname invocation'
+Thu Aug 18 23:35:55 2022 - INFO  - Finish test!
+Thu Aug 18 23:35:56 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:35:57 2022 - INFO  - oe_test_uname.sh post_test

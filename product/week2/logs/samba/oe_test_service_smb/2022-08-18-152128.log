@@ -1,0 +1,40 @@
+Thu Aug 18 15:21:31 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 15:22:28 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 15:22:29 2022 - INFO  - Start testing...
+Job for smb.service failed because the control process exited with error code.
+See "systemctl status smb.service" and "journalctl -xeu smb.service" for details.
+Thu Aug 18 15:22:30 2022 - ERROR - smb.service restart failed
+Thu Aug 18 15:22:31 2022 - ERROR - ../common/common_lib.sh line 34
+Thu Aug 18 15:22:37 2022 - ERROR - smb.service restart failed
+Thu Aug 18 15:22:38 2022 - ERROR - ../common/common_lib.sh line 37
+Thu Aug 18 15:22:44 2022 - ERROR - smb.service stop failed
+Thu Aug 18 15:22:45 2022 - ERROR - ../common/common_lib.sh line 42
+Job for smb.service failed because the control process exited with error code.
+See "systemctl status smb.service" and "journalctl -xeu smb.service" for details.
+Thu Aug 18 15:22:46 2022 - ERROR - smb.service start failed
+Thu Aug 18 15:22:46 2022 - ERROR - ../common/common_lib.sh line 44
+Thu Aug 18 15:22:53 2022 - ERROR - smb.service start failed
+Thu Aug 18 15:22:54 2022 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/smb.service
+Removed /etc/systemd/system/multi-user.target.wants/smb.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/smb.service’: No such file or directory
+Aug 18 15:22:29 openEuler-riscv64 smbd[2600]: /usr/sbin/smbd: error while loading shared libraries: libgenrand-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:22:29 openEuler-riscv64 systemd[1]: smb.service: Failed with result 'exit-code'.
+Aug 18 15:22:29 openEuler-riscv64 systemd[1]: Failed to start Samba SMB Daemon.
+Aug 18 15:22:45 openEuler-riscv64 smbd[2618]: /usr/sbin/smbd: error while loading shared libraries: libgenrand-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:22:45 openEuler-riscv64 systemd[1]: smb.service: Failed with result 'exit-code'.
+Aug 18 15:22:45 openEuler-riscv64 systemd[1]: Failed to start Samba SMB Daemon.
+Thu Aug 18 15:23:02 2022 - ERROR - There is an error message for the log of smb.service
+Thu Aug 18 15:23:03 2022 - ERROR - ../common/common_lib.sh line 28
+Job for smb.service failed because the control process exited with error code.
+See "systemctl status smb.service" and "journalctl -xeu smb.service" for details.
+smb.service is not active, cannot reload.
+Thu Aug 18 15:23:08 2022 - ERROR - smb.service reload failed
+Thu Aug 18 15:23:09 2022 - ERROR - oe_test_service_smb.sh line 40
+Thu Aug 18 15:23:10 2022 - ERROR - smb.service reload causes the service status to change
+Thu Aug 18 15:23:10 2022 - ERROR - oe_test_service_smb.sh line 42
+Thu Aug 18 15:23:11 2022 - INFO  - Finish test!
+Thu Aug 18 15:23:12 2022 - ERROR - failed to execute the case.
+Thu Aug 18 15:23:12 2022 - INFO  - start environment cleanup.
+smb.service is not active, cannot reload.
+Thu Aug 18 15:23:35 2022 - INFO  - Finish environment cleanup!

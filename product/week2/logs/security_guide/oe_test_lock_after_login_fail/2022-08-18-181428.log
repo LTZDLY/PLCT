@@ -1,0 +1,78 @@
+Thu Aug 18 18:14:31 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'testlog': No such file or directory
+Thu Aug 18 18:14:32 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:14:32 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:14:33 2022 - ERROR - grep 'PubkeyAuthentication yes' failed
+Thu Aug 18 18:14:34 2022 - ERROR - oe_test_lock_after_login_fail.sh line 32
+spawn ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa
+Your public key has been saved in /root/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:GbiNSOXw/1TvUtT5d79F79EVTZXtsCoBA9eNAEaHgPE root@openEuler-riscv64
+The key's randomart image is:
++---[RSA 3072]----+
+|  .ooo*++o o    *|
+|  .. *.+o o . .++|
+|    E + .o  . .*o|
+|   . . = o.. o. +|
+|    . o S .. .o *|
+|         o. .o .B|
+|          ... ..=|
+|             . .+|
+|               ..|
++----[SHA256]-----+
+-rw------- 1 root root 2610 Aug 18 18:14 id_rsa
+-rw-r--r-- 1 root root  576 Aug 18 18:14 id_rsa.pub
+spawn ssh-copy-id -i /root/.ssh/id_rsa.pub @
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+ERROR:            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+ERROR:            [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+ERROR:            [-i identity_file] [-J [user@]host[:port]] [-L address]
+ERROR:            [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+ERROR:            [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+ERROR:            [-w local_tun[:remote_tun]] destination [command [argument ...]]
+
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "password" {
+                send "\r"
+            }
+        }"
+Thu Aug 18 18:14:37 2022 - WARN  - the remote password uses the default configuration.
+Thu Aug 18 18:14:37 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r @:/root/.ssh/authorized_keys /home
+ssh: Could not resolve hostname : Name or service not known
+Thu Aug 18 18:14:38 2022 - ERROR - Failed in remote SCP operation: 1
+grep: /home/authorized_keys: No such file or directory
+Thu Aug 18 18:14:39 2022 - ERROR - grep ssh-rsa failed
+Thu Aug 18 18:14:40 2022 - ERROR - oe_test_lock_after_login_fail.sh line 72
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "password" {
+                send "\r"
+            }
+        }"
+Thu Aug 18 18:14:42 2022 - ERROR - login failed
+Thu Aug 18 18:14:43 2022 - ERROR - oe_test_lock_after_login_fail.sh line 91
+Thu Aug 18 18:14:44 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:14:44 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:14:45 2022 - INFO  - Start cleanning environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:14:46 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:14:46 2022 - INFO  - Finish environment cleanup!

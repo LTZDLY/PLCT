@@ -1,0 +1,23 @@
+Thu Aug 18 21:09:46 2022 - INFO  - Start environmental preparation.
+adduser: -Z requires SELinux enabled kernel
+passwd: Unknown user name 'example'.
+Thu Aug 18 21:09:47 2022 - INFO  - End of environmental preparation.
+Thu Aug 18 21:09:48 2022 - INFO  - Start executing testcase.
+oe_test_selinux_confining_admin_to_sysadm_u.sh: line 34: setsebool: command not found
+getsebool:  SELinux is disabled
+Thu Aug 18 21:09:48 2022 - ERROR - set ssh_sysadm_login on failed
+Thu Aug 18 21:09:49 2022 - ERROR - oe_test_selinux_confining_admin_to_sysadm_u.sh line 36
+oe_test_selinux_confining_admin_to_sysadm_u.sh: line 37: semanage: command not found
+Thu Aug 18 21:09:49 2022 - ERROR - Check example sysadm_u failed
+Thu Aug 18 21:09:50 2022 - ERROR - oe_test_selinux_confining_admin_to_sysadm_u.sh line 38
+spawn ssh example@localhost
+example@localhost's password: 
+Permission denied, please try again.
+example@localhost's password: Thu Aug 18 21:10:51 2022 - ERROR - Check id -Z failed
+Thu Aug 18 21:10:51 2022 - ERROR - oe_test_selinux_confining_admin_to_sysadm_u.sh line 75
+Thu Aug 18 21:10:52 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:10:52 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:10:53 2022 - INFO  - start environment cleanup.
+userdel: -Z requires SELinux enabled kernel
+oe_test_selinux_confining_admin_to_sysadm_u.sh: line 83: setsebool: command not found
+Thu Aug 18 21:10:54 2022 - INFO  - Finish environment cleanup!

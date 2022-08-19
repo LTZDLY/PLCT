@@ -1,0 +1,21 @@
+Thu Aug 18 22:51:09 2022 - INFO  - Start to run test.
+Unit firewalld.service could not be found.
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `mangle': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Thu Aug 18 22:51:10 2022 - ERROR - Iptables execution failed
+Thu Aug 18 22:51:11 2022 - ERROR - oe_test_firewalld.sh line 71
+Failed to start firewalld.service: Unit firewalld.service not found.
+Thu Aug 18 22:51:11 2022 - ERROR - Failed to start cockpit service
+Thu Aug 18 22:51:12 2022 - ERROR - oe_test_firewalld.sh line 73
+Unit firewalld.service could not be found.
+Thu Aug 18 22:51:13 2022 - ERROR - Failed to start cockpit service
+Thu Aug 18 22:51:13 2022 - ERROR - oe_test_firewalld.sh line 75
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `mangle': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Thu Aug 18 22:51:14 2022 - ERROR - Iptables execution failed
+Thu Aug 18 22:51:15 2022 - ERROR - oe_test_firewalld.sh line 77
+Thu Aug 18 22:51:15 2022 - INFO  - End to run test.
+Thu Aug 18 22:51:16 2022 - ERROR - failed to execute the case.
+Thu Aug 18 22:51:16 2022 - INFO  - oe_test_firewalld.sh post_test

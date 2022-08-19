@@ -1,0 +1,17 @@
+Thu Aug 18 18:15:14 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:15:14 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:15:15 2022 - INFO  - Start executing testcase.
+testuser1:x:1002:1002::/home/testuser1:/bin/bash
+testuser2:x:1003:1003::/home/testuser2:/bin/bash
+testuser1
+testuser1
+uid=1002(testuser1) gid=1002(testuser1) groups=1002(testuser1)
+Thu Aug 18 18:15:21 2022 - ERROR - testuser1 not allowed to use crontab
+Thu Aug 18 18:15:21 2022 - ERROR - oe_test_access_cron_commands.sh line 43
+uid=1003(testuser2) gid=1003(testuser2) groups=1003(testuser2)
+You (testuser2) are not allowed to use this program (crontab)
+Thu Aug 18 18:15:26 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:15:26 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:15:27 2022 - INFO  - Start cleanning environment.
+mv: cannot stat '/etc/cron.allow-bak': No such file or directory
+Thu Aug 18 18:15:28 2022 - INFO  - Finish environment cleanup!

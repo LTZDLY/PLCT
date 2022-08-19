@@ -1,0 +1,11 @@
+Thu Aug 18 23:56:50 2022 - INFO  - Start environment preparation.
+ls: cannot access '/tmp/Music': No such file or directory
+Thu Aug 18 23:56:51 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:56:51 2022 - INFO  - Start testing...
+ls: cannot access 'Music': No such file or directory
+lrwxrwxrwx 1 root root 5 Aug 18 23:56 /tmp/Music -> Music
+Usage: ln [OPTION]... [-T] TARGET LINK_NAME
+Thu Aug 18 23:56:52 2022 - INFO  - Finish test!
+Thu Aug 18 23:56:53 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:56:53 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:56:54 2022 - INFO  - Finish environment cleanup!

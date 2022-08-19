@@ -1,0 +1,11 @@
+Thu Aug 18 18:35:47 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:35:48 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:35:49 2022 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+test:$6$j5kcDI6sdcLnmx0n$DaJ7xvPMTOWdWyr0wQfMD5F2xni.z7qC/8jtE5TvE7nCCaX2FGXrGzK9iMGoM0royEDoB5Uzg439Heulr7PSE0:19222:0:99999:7:::
+root:$6$NJnZw/bR$Nai1N2OoGwCD2w20xdxewyVkLreMqlf6U6vLnSbnRvwQCcHFO5GaKCM0cRs.s7klDSZWPj5qdMxxOrItxUFMO/:19165:0:99999:7:::
+Thu Aug 18 18:35:50 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:35:51 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:35:51 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:35:52 2022 - INFO  - Finish environment cleanup!

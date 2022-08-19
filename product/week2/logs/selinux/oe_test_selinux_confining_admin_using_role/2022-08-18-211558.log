@@ -1,0 +1,18 @@
+Thu Aug 18 21:16:01 2022 - INFO  - Start environmental preparation.
+adduser: -Z requires SELinux enabled kernel
+passwd: Unknown user name 'example'.
+Thu Aug 18 21:16:02 2022 - INFO  - End of environmental preparation.
+Thu Aug 18 21:16:02 2022 - INFO  - Start executing testcase.
+oe_test_selinux_confining_admin_using_role.sh: line 35: semanage: command not found
+Thu Aug 18 21:16:03 2022 - ERROR - Check example staff_u failed
+Thu Aug 18 21:16:03 2022 - ERROR - oe_test_selinux_confining_admin_using_role.sh line 36
+spawn ssh example@localhost
+example@localhost's password: 
+Permission denied, please try again.
+example@localhost's password: Thu Aug 18 21:16:55 2022 - ERROR - Check id -Z failed
+Thu Aug 18 21:16:56 2022 - ERROR - oe_test_selinux_confining_admin_using_role.sh line 68
+Thu Aug 18 21:16:56 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:16:57 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:16:57 2022 - INFO  - start environment cleanup.
+userdel: -Z requires SELinux enabled kernel
+Thu Aug 18 21:16:58 2022 - INFO  - Finish environment cleanup!

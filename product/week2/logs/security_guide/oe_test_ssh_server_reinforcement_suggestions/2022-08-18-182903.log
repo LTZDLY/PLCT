@@ -1,0 +1,50 @@
+Thu Aug 18 18:29:06 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:29:07 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:07 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 24
+SyslogFacility AUTHPRIV
+Thu Aug 18 18:29:08 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:09 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 28
+Thu Aug 18 18:29:09 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:10 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 30
+#MaxAuthTries 6
+Thu Aug 18 18:29:11 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:11 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 34
+Thu Aug 18 18:29:12 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:13 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 36
+Thu Aug 18 18:29:14 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:14 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 38
+Thu Aug 18 18:29:15 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:15 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 40
+Thu Aug 18 18:29:16 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:17 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 42
+PermitRootLogin yes
+Thu Aug 18 18:29:18 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:18 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 46
+Thu Aug 18 18:29:19 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:20 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 48
+Thu Aug 18 18:29:20 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:21 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 50
+#ClientAliveCountMax 3
+Thu Aug 18 18:29:22 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:22 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 54
+Thu Aug 18 18:29:23 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:24 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 56
+Thu Aug 18 18:29:24 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:25 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 58
+UsePAM yes
+Thu Aug 18 18:29:26 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:27 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 62
+Thu Aug 18 18:29:27 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:28 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 64
+Thu Aug 18 18:29:29 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:30 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 66
+Thu Aug 18 18:29:30 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:31 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 68
+Thu Aug 18 18:29:32 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:32 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 70
+Thu Aug 18 18:29:33 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:29:34 2022 - ERROR - oe_test_ssh_server_reinforcement_suggestions.sh line 72
+#LoginGraceTime 2m
+Thu Aug 18 18:29:35 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:29:35 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:29:36 2022 - INFO  - oe_test_ssh_server_reinforcement_suggestions.sh post_test

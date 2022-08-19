@@ -1,0 +1,17 @@
+Thu Aug 18 20:52:25 2022 - INFO  - Start testing...
+Unit openEuler-security.service could not be found.
+find: ‘enable’: No such file or directory
+Thu Aug 18 20:52:26 2022 - ERROR - openEuler-security.service enable failed
+Thu Aug 18 20:52:26 2022 - ERROR - oe_test_service_openEuler-security.sh line 30
+Failed to disable unit: Unit file openEuler-security.service does not exist.
+find: ‘enable’: No such file or directory
+Failed to start openEuler-security.service: Unit openEuler-security.service not found.
+Thu Aug 18 20:52:27 2022 - ERROR - Job type reload is not applicable for unit openEuler-security.service
+Thu Aug 18 20:52:28 2022 - ERROR - ../common/common_lib.sh line 91
+Unit openEuler-security.service could not be found.
+Unit openEuler-security.service could not be found.
+Thu Aug 18 20:52:29 2022 - INFO  - Finish test!
+Thu Aug 18 20:52:29 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:52:30 2022 - INFO  - start environment cleanup.
+Failed to stop openEuler-security.service: Unit openEuler-security.service not loaded.
+Thu Aug 18 20:52:30 2022 - INFO  - Finish environment cleanup!

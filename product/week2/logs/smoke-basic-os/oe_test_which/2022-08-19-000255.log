@@ -1,0 +1,7 @@
+Fri Aug 19 00:02:58 2022 - INFO  - Start testing...
+which-2.21-14.oe2203.riscv64
+GNU which v2.21, Copyright (C) 1999 - 2015 Carlo Wood.
+/usr/bin/bash
+Fri Aug 19 00:03:00 2022 - INFO  - Finish test!
+Fri Aug 19 00:03:01 2022 - INFO  - succeed to execute the case.
+Fri Aug 19 00:03:01 2022 - INFO  - oe_test_which.sh post_test

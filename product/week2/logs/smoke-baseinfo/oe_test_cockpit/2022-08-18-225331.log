@@ -1,0 +1,16 @@
+Thu Aug 18 22:53:34 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 22:59:38 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 22:59:39 2022 - INFO  - Start to run test.
+     Active: inactive (dead)
+     Active: active (running) since Thu 2022-08-18 22:59:47 CST; 270ms ago
+     Active: active (running) since Thu 2022-08-18 22:59:47 CST; 129ms ago
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100    81  100    81    0     0     58      0  0:00:01  0:00:01 --:--:--    59
+{"csrf-token":"403f89191cd38e9609581d392542b9e56dd3d7274ce4359e46f1d428fa00f258"}
+Thu Aug 18 22:59:54 2022 - INFO  - End to run test.
+Thu Aug 18 22:59:54 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 22:59:55 2022 - INFO  - Start to restore the test environment.
+Warning: Stopping cockpit.service, but it can still be activated by:
+  cockpit.socket
+Thu Aug 18 23:01:46 2022 - INFO  - End to restore the test environment.

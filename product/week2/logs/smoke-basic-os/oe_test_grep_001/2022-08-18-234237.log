@@ -1,0 +1,21 @@
+Thu Aug 18 23:42:40 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 23:42:40 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 23:42:41 2022 - INFO  - Start testing...
+0
+Thu Aug 18 23:42:41 2022 - ERROR - oe_test_grep_001.sh line 32
+Thu Aug 18 23:42:42 2022 - ERROR - oe_test_grep_001.sh line 34
+root       14216  0.0  0.0   5716  1844 pts/0    S+   23:42   0:00 grep auditd
+Usage: grep [OPTION]... PATTERNS [FILE]...
+ls: cannot access '/tmp/test': No such file or directory
+abc
+abc
+/etc/ssh/ssh_config:#	$OpenBSD: ssh_config,v 1.35 2020/07/17 03:43:42 dtucker Exp $
+/etc/ssh/ssh_config:# ssh_config(5) for more information.  This file provides defaults for
+/etc/ssh/ssh_config:# ssh_config(5) man page.
+/etc/ssh/ssh_config:#  file under  /etc/ssh/ssh_config.d/  which will be automatically
+/etc/ssh/ssh_config:#  update-crypto-policies(8)  and  ssh_config(5).
+/etc/ssh/ssh_config:Include /etc/ssh/ssh_config.d/*.conf
+Thu Aug 18 23:42:43 2022 - INFO  - Finish test!
+Thu Aug 18 23:42:44 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:42:44 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:42:45 2022 - INFO  - Finish environment cleanup!

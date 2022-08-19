@@ -1,0 +1,8 @@
+Thu Aug 18 19:42:10 2022 - INFO  - Start to run test.
+[    0.000000] Movable zone start for each node
+[    0.000000] Kernel command line: root=/dev/vda1 rw console=ttyS0 swiotlb=1 loglevel=3 systemd.default_timeout_start_sec=600 selinux=0 highres=off mem=4096M earlycon
+[    0.000000] random: get_random_bytes called from start_kernel+0x30e/0x480 with crng_init=0
+[    2.715212] systemd[1]: Queued start job for default target Graphical Interface.
+Thu Aug 18 19:42:11 2022 - INFO  - End to run test.
+Thu Aug 18 19:42:11 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 19:42:12 2022 - INFO  - oe_test_security_test_FUN324.sh post_test

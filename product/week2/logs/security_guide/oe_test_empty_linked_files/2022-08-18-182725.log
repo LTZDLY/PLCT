@@ -1,0 +1,13 @@
+Thu Aug 18 18:27:28 2022 - INFO  - Start environmental preparation.
+oe_test_empty_linked_files.sh
+ls: cannot access 'test1.txt': No such file or directory
+Thu Aug 18 18:27:29 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:27:30 2022 - INFO  - Start executing testcase.
+-rw------- 1 root root 0 Aug 18 18:27 /tmp/tmp.A4JdZMoTpC
+lrwxrwxrwx 1 root root   19 Aug 18 18:27 test1.txt -> /tmp/tmp.A4JdZMoTpC
+ls: cannot access '/tmp/tmp.A4JdZMoTpC': No such file or directory
+./test1.txt
+Thu Aug 18 18:27:31 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:27:32 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:27:32 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:27:33 2022 - INFO  - Finish environment cleanup!

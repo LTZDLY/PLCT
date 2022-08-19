@@ -1,0 +1,44 @@
+Thu Aug 18 18:28:16 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'testlog': No such file or directory
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:28:17 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:28:17 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:28:18 2022 - INFO  - Start executing testcase.
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "assword:" {
+                sleep 30
+                send "\r"
+            }
+        }"
+Thu Aug 18 18:28:19 2022 - ERROR - oe_test_ssh_access_login_in_60s.sh line 55
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "assword:" {
+                sleep 65
+                send "\r"
+            }
+        }"
+Thu Aug 18 18:28:20 2022 - ERROR - oe_test_ssh_access_login_in_60s.sh line 80
+Thu Aug 18 18:28:21 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:28:21 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:28:22 2022 - INFO  - start environment cleanup.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:28:23 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:28:23 2022 - INFO  - Finish environment cleanup!

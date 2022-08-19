@@ -1,0 +1,16 @@
+Thu Aug 18 23:56:40 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 23:56:40 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 23:56:41 2022 - INFO  - Start testing...
+ls: cannot access 'test1': No such file or directory
+ls: cannot access '/tmp/test1': No such file or directory
+/tmp/test1
+ls: cannot access 'test2/test3': No such file or directory
+ls: cannot access '/tmp/test2': No such file or directory
+test3
+Usage: cp [OPTION]... [-T] SOURCE DEST
+ls: cannot access '/tmp/test4': No such file or directory
+lrwxrwxrwx 1 root root 5 Aug 18 23:56 test4 -> test1
+Thu Aug 18 23:56:42 2022 - INFO  - Finish test!
+Thu Aug 18 23:56:43 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:56:43 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:56:44 2022 - INFO  - Finish environment cleanup!

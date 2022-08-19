@@ -1,0 +1,10 @@
+Thu Aug 18 23:42:51 2022 - INFO  - Start environment preparation.
+ls: cannot access 'test1': No such file or directory
+Thu Aug 18 23:42:52 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:42:52 2022 - INFO  - Start testing...
+test1
+Usage: touch [OPTION]... FILE...
+Thu Aug 18 23:43:54 2022 - INFO  - Finish test!
+Thu Aug 18 23:43:55 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:43:55 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:43:56 2022 - INFO  - Finish environment cleanup!

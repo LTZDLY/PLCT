@@ -1,0 +1,16 @@
+Fri Aug 19 00:00:09 2022 - INFO  - Start environment preparation.
+Fri Aug 19 00:00:19 2022 - INFO  - pkgs:(tar) is already installed
+Fri Aug 19 00:00:20 2022 - INFO  - End of environmental preparation!
+Fri Aug 19 00:00:20 2022 - INFO  - Start testing...
+1+0 records in
+1+0 records out
+512 bytes copied, 0.00331855 s, 154 kB/s
+tar: Removing leading `/' from member names
+test.tar
+-rw-r--r-- root/root       512 2022-08-19 00:00 tmp/test/test
+Usage: tar [OPTION...] [FILE]...
+Fri Aug 19 00:00:21 2022 - INFO  - Finish test!
+Fri Aug 19 00:00:22 2022 - INFO  - succeed to execute the case.
+Fri Aug 19 00:00:23 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:00:23 2022 - WARN  - no thing to do.
+Fri Aug 19 00:00:24 2022 - INFO  - Finish environment cleanup!

@@ -1,0 +1,20 @@
+Thu Aug 18 18:26:13 2022 - INFO  - Start environmental preparation.
+useradd: user 'test1' already exists
+Thu Aug 18 18:26:14 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:26:15 2022 - INFO  - Start executing testcase.
+spawn passwd test1
+Changing password for user test1.
+New password: 
+BAD PASSWORD: The password is a palindrome
+Retype new password: spawn passwd test1
+Changing password for user test1.
+New password: 
+BAD PASSWORD: The password contains less than 3 character classes
+Retype new password: spawn passwd test1
+Changing password for user test1.
+New password: 
+BAD PASSWORD: The password contains less than 3 character classes
+Retype new password: Thu Aug 18 18:26:47 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:26:47 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:26:48 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:26:49 2022 - INFO  - Finish environment cleanup!

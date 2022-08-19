@@ -1,0 +1,24 @@
+Thu Aug 18 21:03:52 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 21:05:11 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 21:05:12 2022 - INFO  - Start executing testcase.
+Thu Aug 18 21:05:25 2022 - ERROR - Check httpd status failed
+Thu Aug 18 21:05:26 2022 - ERROR - oe_test_selinux_http.sh line 40
+ValueError: SELinux policy is not managed or store cannot be accessed.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+--2022-08-18 21:05:38--  http://localhost:3237/index.html
+Resolving localhost (localhost)... ::1, 127.0.0.1
+Connecting to localhost (localhost)|::1|:3237... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3929 (3.8K) [text/html]
+Saving to: ‘index.html’
+
+     0K ...                                                   100% 22.7M=0s
+
+2022-08-18 21:05:41 (22.7 MB/s) - ‘index.html’ saved [3929/3929]
+
+Thu Aug 18 21:05:42 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:05:43 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:05:43 2022 - INFO  - start environment cleanup.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 21:06:19 2022 - INFO  - Finish environment cleanup!

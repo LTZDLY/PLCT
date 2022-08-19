@@ -1,0 +1,13 @@
+Thu Aug 18 19:15:43 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 19:16:20 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 19:16:21 2022 - INFO  - Start executing testcase.
+Number of entries:	52858
+WARNING: get_file_status: lstat() failed for /usr/share/locale/vi/LC_MESSAGES/GConf2.mo: No such file or directory
+WARNING: open_dir() failed for /usr/share/rpmdevtools: No such file or directory
+Thu Aug 18 19:23:57 2022 - ERROR - exec 'aide --check' failed
+Thu Aug 18 19:23:58 2022 - ERROR - oe_test_aide_check_update.sh line 34
+New AIDE database written to /var/lib/aide/aide.db.new.gz
+Thu Aug 18 19:28:08 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 19:28:09 2022 - ERROR - failed to execute the case.
+Thu Aug 18 19:28:09 2022 - INFO  - start environment cleanup.
+Thu Aug 18 19:28:21 2022 - INFO  - Finish environment cleanup!

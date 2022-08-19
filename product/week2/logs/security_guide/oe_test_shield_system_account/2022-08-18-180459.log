@@ -1,0 +1,24 @@
+Thu Aug 18 18:05:02 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'log': No such file or directory
+Thu Aug 18 18:05:02 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:05:03 2022 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+spawn ssh test@127.0.0.1 pwd
+test@127.0.0.1's password: 
+/home/test
+/home/test
+spawn ssh test@127.0.0.1 pwd
+test@127.0.0.1's password: 
+Permission denied, please try again.
+test@127.0.0.1's password: 
+Permission denied, please try again.
+test@127.0.0.1's password: 
+test@127.0.0.1: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+Permission denied, please try again.
+Permission denied, please try again.
+test@127.0.0.1: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+Thu Aug 18 18:05:38 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:05:39 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:05:39 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:05:40 2022 - INFO  - Finish environment cleanup!

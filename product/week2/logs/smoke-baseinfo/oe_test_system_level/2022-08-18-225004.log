@@ -1,0 +1,26 @@
+Thu Aug 18 22:50:06 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 22:50:07 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 22:50:08 2022 - INFO  - Start to run test.
+Thu Aug 18 22:50:08 2022 - INFO  - default target is graphical
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/poweroff.target.
+Thu Aug 18 22:50:13 2022 - INFO  - set-default poweroff.target success
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/rescue.target.
+Thu Aug 18 22:50:18 2022 - INFO  - set-default rescue.target success
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/multi-user.target.
+Thu Aug 18 22:50:22 2022 - INFO  - set-default multi-user.target success
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/graphical.target.
+Thu Aug 18 22:50:26 2022 - INFO  - set-default graphical.target success
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/reboot.target.
+Thu Aug 18 22:50:31 2022 - INFO  - set-default reboot.target success
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target → /usr/lib/systemd/system/graphical.target.
+  graphical.target      loaded active active Graphical Interface
+  multi-user.target     loaded active active Multi-User System
+  graphical.target      loaded active active Graphical Interface
+Thu Aug 18 22:50:36 2022 - INFO  - End to run test.
+Thu Aug 18 22:50:37 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 22:50:37 2022 - INFO  - oe_test_system_level.sh post_test

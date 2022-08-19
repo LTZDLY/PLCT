@@ -1,0 +1,332 @@
+Thu Aug 18 22:50:52 2022 - INFO  - Start to run test.
+  sys-devices-platform-serial8250-tty-ttyS1.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS1
+  sys-devices-platform-serial8250-tty-ttyS2.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS2
+  sys-devices-platform-serial8250-tty-ttyS3.device                            loaded active plugged   /sys/devices/platform/serial8250/tty/ttyS3
+  sys-devices-platform-soc-10000000.uart-tty-ttyS0.device                     loaded active plugged   /sys/devices/platform/soc/10000000.uart/tty/ttyS0
+  sys-devices-platform-soc-10006000.virtio_mmio-virtio2-net-eth0.device       loaded active plugged   /sys/devices/platform/soc/10006000.virtio_mmio/virtio2/net/eth0
+  sys-devices-platform-soc-10007000.virtio_mmio-virtio1-block-vda-vda1.device loaded active plugged   /sys/devices/platform/soc/10007000.virtio_mmio/virtio1/block/vda/vda1
+  sys-devices-platform-soc-10007000.virtio_mmio-virtio1-block-vda.device      loaded active plugged   /sys/devices/platform/soc/10007000.virtio_mmio/virtio1/block/vda
+  sys-devices-virtual-net-sit0.device                                         loaded active plugged   /sys/devices/virtual/net/sit0
+  sys-devices-virtual-tty-hvc0.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc0
+  sys-devices-virtual-tty-hvc1.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc1
+  sys-devices-virtual-tty-hvc2.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc2
+  sys-devices-virtual-tty-hvc3.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc3
+  sys-devices-virtual-tty-hvc4.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc4
+  sys-devices-virtual-tty-hvc5.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc5
+  sys-devices-virtual-tty-hvc6.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc6
+  sys-devices-virtual-tty-hvc7.device                                         loaded active plugged   /sys/devices/virtual/tty/hvc7
+  sys-devices-virtual-tty-ttya0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya0
+  sys-devices-virtual-tty-ttya1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya1
+  sys-devices-virtual-tty-ttya2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya2
+  sys-devices-virtual-tty-ttya3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya3
+  sys-devices-virtual-tty-ttya4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya4
+  sys-devices-virtual-tty-ttya5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya5
+  sys-devices-virtual-tty-ttya6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya6
+  sys-devices-virtual-tty-ttya7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya7
+  sys-devices-virtual-tty-ttya8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya8
+  sys-devices-virtual-tty-ttya9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttya9
+  sys-devices-virtual-tty-ttyaa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyaa
+  sys-devices-virtual-tty-ttyab.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyab
+  sys-devices-virtual-tty-ttyac.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyac
+  sys-devices-virtual-tty-ttyad.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyad
+  sys-devices-virtual-tty-ttyae.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyae
+  sys-devices-virtual-tty-ttyaf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyaf
+  sys-devices-virtual-tty-ttyb0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb0
+  sys-devices-virtual-tty-ttyb1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb1
+  sys-devices-virtual-tty-ttyb2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb2
+  sys-devices-virtual-tty-ttyb3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb3
+  sys-devices-virtual-tty-ttyb4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb4
+  sys-devices-virtual-tty-ttyb5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb5
+  sys-devices-virtual-tty-ttyb6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb6
+  sys-devices-virtual-tty-ttyb7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb7
+  sys-devices-virtual-tty-ttyb8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb8
+  sys-devices-virtual-tty-ttyb9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyb9
+  sys-devices-virtual-tty-ttyba.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyba
+  sys-devices-virtual-tty-ttybb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttybb
+  sys-devices-virtual-tty-ttybc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttybc
+  sys-devices-virtual-tty-ttybd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttybd
+  sys-devices-virtual-tty-ttybe.device                                        loaded active plugged   /sys/devices/virtual/tty/ttybe
+  sys-devices-virtual-tty-ttybf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttybf
+  sys-devices-virtual-tty-ttyc0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc0
+  sys-devices-virtual-tty-ttyc1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc1
+  sys-devices-virtual-tty-ttyc2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc2
+  sys-devices-virtual-tty-ttyc3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc3
+  sys-devices-virtual-tty-ttyc4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc4
+  sys-devices-virtual-tty-ttyc5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc5
+  sys-devices-virtual-tty-ttyc6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc6
+  sys-devices-virtual-tty-ttyc7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc7
+  sys-devices-virtual-tty-ttyc8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc8
+  sys-devices-virtual-tty-ttyc9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyc9
+  sys-devices-virtual-tty-ttyca.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyca
+  sys-devices-virtual-tty-ttycb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttycb
+  sys-devices-virtual-tty-ttycc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttycc
+  sys-devices-virtual-tty-ttycd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttycd
+  sys-devices-virtual-tty-ttyce.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyce
+  sys-devices-virtual-tty-ttycf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttycf
+  sys-devices-virtual-tty-ttyd0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd0
+  sys-devices-virtual-tty-ttyd1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd1
+  sys-devices-virtual-tty-ttyd2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd2
+  sys-devices-virtual-tty-ttyd3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd3
+  sys-devices-virtual-tty-ttyd4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd4
+  sys-devices-virtual-tty-ttyd5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd5
+  sys-devices-virtual-tty-ttyd6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd6
+  sys-devices-virtual-tty-ttyd7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd7
+  sys-devices-virtual-tty-ttyd8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd8
+  sys-devices-virtual-tty-ttyd9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyd9
+  sys-devices-virtual-tty-ttyda.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyda
+  sys-devices-virtual-tty-ttydb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttydb
+  sys-devices-virtual-tty-ttydc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttydc
+  sys-devices-virtual-tty-ttydd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttydd
+  sys-devices-virtual-tty-ttyde.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyde
+  sys-devices-virtual-tty-ttydf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttydf
+  sys-devices-virtual-tty-ttye0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye0
+  sys-devices-virtual-tty-ttye1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye1
+  sys-devices-virtual-tty-ttye2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye2
+  sys-devices-virtual-tty-ttye3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye3
+  sys-devices-virtual-tty-ttye4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye4
+  sys-devices-virtual-tty-ttye5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye5
+  sys-devices-virtual-tty-ttye6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye6
+  sys-devices-virtual-tty-ttye7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye7
+  sys-devices-virtual-tty-ttye8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye8
+  sys-devices-virtual-tty-ttye9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttye9
+  sys-devices-virtual-tty-ttyea.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyea
+  sys-devices-virtual-tty-ttyeb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyeb
+  sys-devices-virtual-tty-ttyec.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyec
+  sys-devices-virtual-tty-ttyed.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyed
+  sys-devices-virtual-tty-ttyee.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyee
+  sys-devices-virtual-tty-ttyef.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyef
+  sys-devices-virtual-tty-ttyp0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp0
+  sys-devices-virtual-tty-ttyp1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp1
+  sys-devices-virtual-tty-ttyp2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp2
+  sys-devices-virtual-tty-ttyp3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp3
+  sys-devices-virtual-tty-ttyp4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp4
+  sys-devices-virtual-tty-ttyp5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp5
+  sys-devices-virtual-tty-ttyp6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp6
+  sys-devices-virtual-tty-ttyp7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp7
+  sys-devices-virtual-tty-ttyp8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp8
+  sys-devices-virtual-tty-ttyp9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyp9
+  sys-devices-virtual-tty-ttypa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttypa
+  sys-devices-virtual-tty-ttypb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttypb
+  sys-devices-virtual-tty-ttypc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttypc
+  sys-devices-virtual-tty-ttypd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttypd
+  sys-devices-virtual-tty-ttype.device                                        loaded active plugged   /sys/devices/virtual/tty/ttype
+  sys-devices-virtual-tty-ttypf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttypf
+  sys-devices-virtual-tty-ttyq0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq0
+  sys-devices-virtual-tty-ttyq1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq1
+  sys-devices-virtual-tty-ttyq2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq2
+  sys-devices-virtual-tty-ttyq3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq3
+  sys-devices-virtual-tty-ttyq4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq4
+  sys-devices-virtual-tty-ttyq5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq5
+  sys-devices-virtual-tty-ttyq6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq6
+  sys-devices-virtual-tty-ttyq7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq7
+  sys-devices-virtual-tty-ttyq8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq8
+  sys-devices-virtual-tty-ttyq9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyq9
+  sys-devices-virtual-tty-ttyqa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqa
+  sys-devices-virtual-tty-ttyqb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqb
+  sys-devices-virtual-tty-ttyqc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqc
+  sys-devices-virtual-tty-ttyqd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqd
+  sys-devices-virtual-tty-ttyqe.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqe
+  sys-devices-virtual-tty-ttyqf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyqf
+  sys-devices-virtual-tty-ttyr0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr0
+  sys-devices-virtual-tty-ttyr1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr1
+  sys-devices-virtual-tty-ttyr2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr2
+  sys-devices-virtual-tty-ttyr3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr3
+  sys-devices-virtual-tty-ttyr4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr4
+  sys-devices-virtual-tty-ttyr5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr5
+  sys-devices-virtual-tty-ttyr6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr6
+  sys-devices-virtual-tty-ttyr7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr7
+  sys-devices-virtual-tty-ttyr8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr8
+  sys-devices-virtual-tty-ttyr9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyr9
+  sys-devices-virtual-tty-ttyra.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyra
+  sys-devices-virtual-tty-ttyrb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyrb
+  sys-devices-virtual-tty-ttyrc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyrc
+  sys-devices-virtual-tty-ttyrd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyrd
+  sys-devices-virtual-tty-ttyre.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyre
+  sys-devices-virtual-tty-ttyrf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyrf
+  sys-devices-virtual-tty-ttys0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys0
+  sys-devices-virtual-tty-ttys1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys1
+  sys-devices-virtual-tty-ttys2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys2
+  sys-devices-virtual-tty-ttys3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys3
+  sys-devices-virtual-tty-ttys4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys4
+  sys-devices-virtual-tty-ttys5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys5
+  sys-devices-virtual-tty-ttys6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys6
+  sys-devices-virtual-tty-ttys7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys7
+  sys-devices-virtual-tty-ttys8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys8
+  sys-devices-virtual-tty-ttys9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttys9
+  sys-devices-virtual-tty-ttysa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttysa
+  sys-devices-virtual-tty-ttysb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttysb
+  sys-devices-virtual-tty-ttysc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttysc
+  sys-devices-virtual-tty-ttysd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttysd
+  sys-devices-virtual-tty-ttyse.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyse
+  sys-devices-virtual-tty-ttysf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttysf
+  sys-devices-virtual-tty-ttyt0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt0
+  sys-devices-virtual-tty-ttyt1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt1
+  sys-devices-virtual-tty-ttyt2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt2
+  sys-devices-virtual-tty-ttyt3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt3
+  sys-devices-virtual-tty-ttyt4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt4
+  sys-devices-virtual-tty-ttyt5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt5
+  sys-devices-virtual-tty-ttyt6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt6
+  sys-devices-virtual-tty-ttyt7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt7
+  sys-devices-virtual-tty-ttyt8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt8
+  sys-devices-virtual-tty-ttyt9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyt9
+  sys-devices-virtual-tty-ttyta.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyta
+  sys-devices-virtual-tty-ttytb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttytb
+  sys-devices-virtual-tty-ttytc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttytc
+  sys-devices-virtual-tty-ttytd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttytd
+  sys-devices-virtual-tty-ttyte.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyte
+  sys-devices-virtual-tty-ttytf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttytf
+  sys-devices-virtual-tty-ttyu0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu0
+  sys-devices-virtual-tty-ttyu1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu1
+  sys-devices-virtual-tty-ttyu2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu2
+  sys-devices-virtual-tty-ttyu3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu3
+  sys-devices-virtual-tty-ttyu4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu4
+  sys-devices-virtual-tty-ttyu5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu5
+  sys-devices-virtual-tty-ttyu6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu6
+  sys-devices-virtual-tty-ttyu7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu7
+  sys-devices-virtual-tty-ttyu8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu8
+  sys-devices-virtual-tty-ttyu9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyu9
+  sys-devices-virtual-tty-ttyua.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyua
+  sys-devices-virtual-tty-ttyub.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyub
+  sys-devices-virtual-tty-ttyuc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyuc
+  sys-devices-virtual-tty-ttyud.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyud
+  sys-devices-virtual-tty-ttyue.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyue
+  sys-devices-virtual-tty-ttyuf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyuf
+  sys-devices-virtual-tty-ttyv0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv0
+  sys-devices-virtual-tty-ttyv1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv1
+  sys-devices-virtual-tty-ttyv2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv2
+  sys-devices-virtual-tty-ttyv3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv3
+  sys-devices-virtual-tty-ttyv4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv4
+  sys-devices-virtual-tty-ttyv5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv5
+  sys-devices-virtual-tty-ttyv6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv6
+  sys-devices-virtual-tty-ttyv7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv7
+  sys-devices-virtual-tty-ttyv8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv8
+  sys-devices-virtual-tty-ttyv9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyv9
+  sys-devices-virtual-tty-ttyva.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyva
+  sys-devices-virtual-tty-ttyvb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyvb
+  sys-devices-virtual-tty-ttyvc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyvc
+  sys-devices-virtual-tty-ttyvd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyvd
+  sys-devices-virtual-tty-ttyve.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyve
+  sys-devices-virtual-tty-ttyvf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyvf
+  sys-devices-virtual-tty-ttyw0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw0
+  sys-devices-virtual-tty-ttyw1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw1
+  sys-devices-virtual-tty-ttyw2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw2
+  sys-devices-virtual-tty-ttyw3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw3
+  sys-devices-virtual-tty-ttyw4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw4
+  sys-devices-virtual-tty-ttyw5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw5
+  sys-devices-virtual-tty-ttyw6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw6
+  sys-devices-virtual-tty-ttyw7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw7
+  sys-devices-virtual-tty-ttyw8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw8
+  sys-devices-virtual-tty-ttyw9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyw9
+  sys-devices-virtual-tty-ttywa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywa
+  sys-devices-virtual-tty-ttywb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywb
+  sys-devices-virtual-tty-ttywc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywc
+  sys-devices-virtual-tty-ttywd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywd
+  sys-devices-virtual-tty-ttywe.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywe
+  sys-devices-virtual-tty-ttywf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttywf
+  sys-devices-virtual-tty-ttyx0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx0
+  sys-devices-virtual-tty-ttyx1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx1
+  sys-devices-virtual-tty-ttyx2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx2
+  sys-devices-virtual-tty-ttyx3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx3
+  sys-devices-virtual-tty-ttyx4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx4
+  sys-devices-virtual-tty-ttyx5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx5
+  sys-devices-virtual-tty-ttyx6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx6
+  sys-devices-virtual-tty-ttyx7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx7
+  sys-devices-virtual-tty-ttyx8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx8
+  sys-devices-virtual-tty-ttyx9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyx9
+  sys-devices-virtual-tty-ttyxa.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxa
+  sys-devices-virtual-tty-ttyxb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxb
+  sys-devices-virtual-tty-ttyxc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxc
+  sys-devices-virtual-tty-ttyxd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxd
+  sys-devices-virtual-tty-ttyxe.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxe
+  sys-devices-virtual-tty-ttyxf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyxf
+  sys-devices-virtual-tty-ttyy0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy0
+  sys-devices-virtual-tty-ttyy1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy1
+  sys-devices-virtual-tty-ttyy2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy2
+  sys-devices-virtual-tty-ttyy3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy3
+  sys-devices-virtual-tty-ttyy4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy4
+  sys-devices-virtual-tty-ttyy5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy5
+  sys-devices-virtual-tty-ttyy6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy6
+  sys-devices-virtual-tty-ttyy7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy7
+  sys-devices-virtual-tty-ttyy8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy8
+  sys-devices-virtual-tty-ttyy9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyy9
+  sys-devices-virtual-tty-ttyya.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyya
+  sys-devices-virtual-tty-ttyyb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyyb
+  sys-devices-virtual-tty-ttyyc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyyc
+  sys-devices-virtual-tty-ttyyd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyyd
+  sys-devices-virtual-tty-ttyye.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyye
+  sys-devices-virtual-tty-ttyyf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyyf
+  sys-devices-virtual-tty-ttyz0.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz0
+  sys-devices-virtual-tty-ttyz1.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz1
+  sys-devices-virtual-tty-ttyz2.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz2
+  sys-devices-virtual-tty-ttyz3.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz3
+  sys-devices-virtual-tty-ttyz4.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz4
+  sys-devices-virtual-tty-ttyz5.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz5
+  sys-devices-virtual-tty-ttyz6.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz6
+  sys-devices-virtual-tty-ttyz7.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz7
+  sys-devices-virtual-tty-ttyz8.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz8
+  sys-devices-virtual-tty-ttyz9.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyz9
+  sys-devices-virtual-tty-ttyza.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyza
+  sys-devices-virtual-tty-ttyzb.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyzb
+  sys-devices-virtual-tty-ttyzc.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyzc
+  sys-devices-virtual-tty-ttyzd.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyzd
+  sys-devices-virtual-tty-ttyze.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyze
+  sys-devices-virtual-tty-ttyzf.device                                        loaded active plugged   /sys/devices/virtual/tty/ttyzf
+  sys-subsystem-net-devices-eth0.device                                       loaded active plugged   /sys/subsystem/net/devices/eth0
+  sys-subsystem-net-devices-sit0.device                                       loaded active plugged   /sys/subsystem/net/devices/sit0
+  sys-kernel-debug.mount                                                      loaded active mounted   Kernel Debug File System
+  systemd-ask-password-console.path                                           loaded active waiting   Dispatch Password Requests to Console Directory Watch
+  systemd-ask-password-wall.path                                              loaded active waiting   Forward Password Requests to Wall Directory Watch
+  systemd-journal-flush.service                                               loaded active exited    Flush Journal to Persistent Storage
+  systemd-journald.service                                                    loaded active running   Journal Service
+  systemd-logind.service                                                      loaded active running   User Login Management
+  systemd-random-seed.service                                                 loaded active exited    Load/Save Random Seed
+  systemd-remount-fs.service                                                  loaded active exited    Remount Root and Kernel File Systems
+  systemd-sysctl.service                                                      loaded active exited    Apply Kernel Variables
+  systemd-timesyncd.service                                                   loaded active running   Network Time Synchronization
+  systemd-tmpfiles-setup-dev.service                                          loaded active exited    Create Static Device Nodes in /dev
+  systemd-tmpfiles-setup.service                                              loaded active exited    Create Volatile Files and Directories
+  systemd-udev-trigger.service                                                loaded active exited    Coldplug All udev Devices
+  systemd-udevd.service                                                       loaded active running   Rule-based Manager for Device Events and Files
+  systemd-update-utmp.service                                                 loaded active exited    Record System Boot/Shutdown in UTMP
+  systemd-user-sessions.service                                               loaded active exited    Permit User Sessions
+  system-getty.slice                                                          loaded active active    Slice /system/getty
+  system-modprobe.slice                                                       loaded active active    Slice /system/modprobe
+  system-serial\x2dgetty.slice                                                loaded active active    Slice /system/serial-getty
+  system-sshd\x2dkeygen.slice                                                 loaded active active    Slice /system/sshd-keygen
+  system-systemd\x2dcoredump.slice                                            loaded active active    Slice /system/systemd-coredump
+  system.slice                                                                loaded active active    System Slice
+  systemd-coredump.socket                                                     loaded active listening Process Core Dump Socket
+  systemd-initctl.socket                                                      loaded active listening initctl Compatibility Named Pipe
+  systemd-journald-dev-log.socket                                             loaded active running   Journal Socket (/dev/log)
+  systemd-journald.socket                                                     loaded active running   Journal Socket
+  systemd-udevd-control.socket                                                loaded active running   udev Control Socket
+  systemd-udevd-kernel.socket                                                 loaded active running   udev Kernel Socket
+  sysinit.target                                                              loaded active active    System Initialization
+  systemd-tmpfiles-clean.timer                                                loaded active waiting   Daily Cleanup of Temporary Directories
+To show all installed unit files use 'systemctl list-unit-files'.
+Unit rsyslog.service could not be found.
+Thu Aug 18 22:50:53 2022 - ERROR - service status is not running
+Thu Aug 18 22:50:53 2022 - ERROR - oe_test_service.sh line 26
+Failed to stop rsyslog.service: Unit rsyslog.service not loaded.
+Thu Aug 18 22:50:54 2022 - ERROR - Failed to stop rsyslog service
+Thu Aug 18 22:50:55 2022 - ERROR - oe_test_service.sh line 28
+Unit rsyslog.service could not be found.
+Thu Aug 18 22:50:55 2022 - ERROR - Failed to stop rsyslog service
+Thu Aug 18 22:50:56 2022 - ERROR - oe_test_service.sh line 30
+Failed to start rsyslog.service: Unit rsyslog.service not found.
+Thu Aug 18 22:50:57 2022 - ERROR - Failed to start rsyslog service
+Thu Aug 18 22:50:57 2022 - ERROR - oe_test_service.sh line 32
+Failed to restart rsyslog.service: Unit rsyslog.service not found.
+Thu Aug 18 22:50:58 2022 - ERROR - Failed to start rsyslog service
+Thu Aug 18 22:50:59 2022 - ERROR - oe_test_service.sh line 34
+Failed to disable unit: Unit file rsyslog.service does not exist.
+Thu Aug 18 22:50:59 2022 - ERROR - Failed to start rsyslog service
+Thu Aug 18 22:51:00 2022 - ERROR - oe_test_service.sh line 36
+Failed to enable unit: Unit file rsyslog.service does not exist.
+/root/mugen-riscv/libs/locallibs/common_lib.sh: line 37: [: too many arguments
+● iptables.service loaded failed failed IPv4 firewall with iptables
+Thu Aug 18 22:51:01 2022 - ERROR - There are failed services
+Thu Aug 18 22:51:01 2022 - ERROR - oe_test_service.sh line 41
+Thu Aug 18 22:51:02 2022 - INFO  - End to run test.
+Thu Aug 18 22:51:03 2022 - ERROR - failed to execute the case.
+Thu Aug 18 22:51:03 2022 - INFO  - oe_test_service.sh post_test

@@ -1,0 +1,22 @@
+Thu Aug 18 18:03:30 2022 - INFO  - Start executing testcase.
+drwxrwxrwt 8 root root 4096 Aug 18 18:03 /var/tmp
+drwxrwxrwt 2 root root 4096 Aug 18 13:18 /var/tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-logind.service-aoCIyL/tmp
+drwxrwxrwt 2 root root 4096 Aug  3 17:55 /var/tmp/build-root/advanced_riscv64-riscv64/var/tmp
+drwxrwxrwt 2 root root 12288 Aug  3 17:55 /var/tmp/build-root/advanced_riscv64-riscv64/tmp
+drwxrwxrwt 2 root root 4096 Aug 18 18:03 /var/tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-hostnamed.service-iskMBe/tmp
+drwxrwxrwt 2 root root 4096 Aug 18 13:18 /var/tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-timesyncd.service-q2p0OW/tmp
+drwxrwxrwt 2 root root 40 Jan  1  1970 /dev/mqueue
+drwxrwxrwt 2 root root 40 Aug 18 17:50 /dev/shm
+drwxrwxrwt 11 root root 820 Aug 18 18:03 /tmp
+drwxrwxrwt 2 root root 40 Aug 18 18:03 /tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-hostnamed.service-Ml8fdj/tmp
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-logind.service-29flVO/tmp
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/systemd-private-3fe8799171f14c9586e6cfd6c92c4942-systemd-timesyncd.service-29r4AU/tmp
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/.Test-unix
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/.font-unix
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/.XIM-unix
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/.ICE-unix
+drwxrwxrwt 2 root root 40 Aug 18 13:18 /tmp/.X11-unix
+Thu Aug 18 18:04:02 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:04:03 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:04:04 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:04:04 2022 - INFO  - Finish environment cleanup!

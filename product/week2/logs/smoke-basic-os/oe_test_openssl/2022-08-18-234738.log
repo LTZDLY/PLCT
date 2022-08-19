@@ -1,0 +1,31 @@
+Thu Aug 18 23:47:41 2022 - INFO  - Start to config params of the case.
+Thu Aug 18 23:47:42 2022 - INFO  - End to config params of the case.
+Thu Aug 18 23:47:42 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:47:52 2022 - INFO  - pkgs:(openssl) is already installed
+Thu Aug 18 23:47:53 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:47:53 2022 - INFO  - Start testing...
+Can't open /etc/fstab for reading, No such file or directory
+274643858464:error:02001002:system library:fopen:No such file or directory:crypto/bio/bss_file.c:69:fopen('/etc/fstab','rb')
+274643858464:error:2006D080:BIO routines:BIO_new_file:no such file:crypto/bio/bss_file.c:76:
+Thu Aug 18 23:47:54 2022 - ERROR - oe_test_openssl.sh line 38
+diff: /etc/fstab: No such file or directory
+diff: /tmp/encry_14971: No such file or directory
+Can't open /tmp/encry_14971 for reading, No such file or directory
+273822626848:error:02001002:system library:fopen:No such file or directory:crypto/bio/bss_file.c:69:fopen('/tmp/encry_14971','rb')
+273822626848:error:2006D080:BIO routines:BIO_new_file:no such file:crypto/bio/bss_file.c:76:
+Thu Aug 18 23:47:55 2022 - ERROR - oe_test_openssl.sh line 41
+diff: /etc/fstab: No such file or directory
+diff: /tmp/decry_14971: No such file or directory
+Thu Aug 18 23:47:56 2022 - ERROR - oe_test_openssl.sh line 43
+Generating a RSA private key
+...........+++++
+.....................+++++
+writing new private key to 'rsa_private.key'
+-----
+        Issuer: C = CN, O = openeuler, OU = oec
+        Subject: C = CN, O = openeuler, OU = oec
+Thu Aug 18 23:47:57 2022 - INFO  - Finish test!
+Thu Aug 18 23:47:58 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:47:58 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:47:59 2022 - WARN  - no thing to do.
+Thu Aug 18 23:47:59 2022 - INFO  - Finish environment cleanup!

@@ -1,0 +1,22 @@
+Thu Aug 18 19:42:41 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 19:42:42 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 19:42:42 2022 - INFO  - Start to run test.
+# file: acl_file
+# owner: root
+# group: root
+user::rw-
+group::r--
+other::---
+
+-rw-r----- 1 root root 4 Aug 18 19:42 acl_file
+user:acl_user:r--
+123
+getfacl: Removing leading '/' from absolute path names
+cat: acl_file: Permission denied
+getfacl: Removing leading '/' from absolute path names
+group:acl_user:r-x
+123
+Thu Aug 18 19:42:49 2022 - INFO  - End to run test.
+Thu Aug 18 19:42:49 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 19:42:50 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 19:42:51 2022 - INFO  - End to restore the test environment.

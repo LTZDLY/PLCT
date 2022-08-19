@@ -1,0 +1,15 @@
+Thu Aug 18 19:28:27 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 19:28:28 2022 - INFO  - Finish preparing the test environment.
+Thu Aug 18 19:28:29 2022 - INFO  - Start to run test.
+Changing password for user test.
+passwd: all authentication tokens updated successfully.
+passwd: Only root can specify a user name.
+Current password: passwd: Authentication token manipulation error
+Changing password for user test.
+Changing password for test.
+Thu Aug 18 19:28:33 2022 - ERROR - change num failed
+Thu Aug 18 19:28:34 2022 - ERROR - oe_test_security_test_FUN294.sh line 39
+Thu Aug 18 19:28:35 2022 - INFO  - End to run test.
+Thu Aug 18 19:28:35 2022 - ERROR - failed to execute the case.
+Thu Aug 18 19:28:36 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 19:28:37 2022 - INFO  - End to restore the test environment.

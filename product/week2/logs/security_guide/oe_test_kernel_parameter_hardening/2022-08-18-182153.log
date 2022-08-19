@@ -1,0 +1,22 @@
+Thu Aug 18 18:21:56 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:21:56 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 25
+Thu Aug 18 18:21:57 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 27
+Thu Aug 18 18:21:58 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 29
+Thu Aug 18 18:21:58 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 31
+Thu Aug 18 18:21:59 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 33
+Thu Aug 18 18:22:00 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 35
+Thu Aug 18 18:22:01 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 37
+Thu Aug 18 18:22:01 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 39
+Thu Aug 18 18:22:02 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 41
+Thu Aug 18 18:22:03 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 43
+Thu Aug 18 18:22:03 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 45
+Thu Aug 18 18:22:04 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 47
+Thu Aug 18 18:22:05 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 49
+Thu Aug 18 18:22:05 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 51
+Thu Aug 18 18:22:06 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 53
+Thu Aug 18 18:22:07 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 55
+Thu Aug 18 18:22:07 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 57
+Thu Aug 18 18:22:08 2022 - ERROR - oe_test_kernel_parameter_hardening.sh line 59
+Thu Aug 18 18:22:09 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:22:10 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:22:10 2022 - INFO  - oe_test_kernel_parameter_hardening.sh post_test

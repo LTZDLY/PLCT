@@ -1,0 +1,9 @@
+Thu Aug 18 18:14:52 2022 - INFO  - Start executing testcase.
+0
+drwxrwxrwx  2 root root  40 Aug 18 18:15 .
+      271      0 drwxrwxrwx   2 root     root           40 Aug 18 18:15 /tmp/tmp.mD6P03t9in
+drwxrwxrwt  2 root root  40 Aug 18 18:15 .
+Thu Aug 18 18:15:06 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:15:06 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:15:07 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:15:08 2022 - INFO  - Finish environment cleanup!

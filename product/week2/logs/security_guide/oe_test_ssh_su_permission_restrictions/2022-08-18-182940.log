@@ -1,0 +1,50 @@
+Thu Aug 18 18:29:43 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:29:44 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:29:45 2022 - INFO  - Start executing testcase.
+spawn passwd test1
+Changing password for user test1.
+qqq
+New password: spawn passwd test2
+Changing password for user test2.
+qqq
+New password: spawn su test2
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:29:47 PM CST 2022
+
+System load: 	[0;33;40m1.28[0m
+Processes: 	81
+Memory used: 	1.4%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	1
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test2@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_ssh_su_permission_restrictions[?2004h[test2@openEuler-riscv64 oe_test_ssh_su_permission_restrictions]$ pwd
+[?2004l/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_ssh_su_permission_restrictions
+]0;test2@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_ssh_su_permission_restrictionsIP address: 	192.168.1.1
+spawn su test1
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:30:17 PM CST 2022
+
+System load: 	[0;33;40m1.35[0m
+Processes: 	81
+Memory used: 	1.4%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	1
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test1@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_ssh_su_permission_restrictions[?2004h[test1@openEuler-riscv64 oe_test_ssh_su_permission_restrictions]$ su test 2
+[?2004lsu: user test does not exist or the user entry does not contain all the required fields
+]0;test1@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_ssh_su_permission_restrictions[?2004h[test1@openEuler-riscv64 oe_test_ssh_su_permission_restrictions]$ IP address: 	192.168.1.1
+Thu Aug 18 18:31:47 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:31:47 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:31:48 2022 - INFO  - Start cleanning environment.
+userdel: user 'test*' does not exist
+Thu Aug 18 18:31:49 2022 - INFO  - Finish environment cleanup!

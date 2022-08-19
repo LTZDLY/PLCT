@@ -1,0 +1,23 @@
+Thu Aug 18 23:36:03 2022 - INFO  - Start to config params of the case.
+Thu Aug 18 23:36:04 2022 - INFO  - End to config params of the case.
+Thu Aug 18 23:36:05 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:36:36 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:36:37 2022 - INFO  - Start testing...
+oe_test_criu.sh: line 41: criu: command not found
+Thu Aug 18 23:36:40 2022 - ERROR - oe_test_criu.sh line 42
+root       13032  1.5  0.0   2072   636 pts/0    S+   23:36   0:00 ./demo
+Thu Aug 18 23:36:41 2022 - ERROR - oe_test_criu.sh line 44
+oe_test_criu.sh: line 46: criu: command not found
+Thu Aug 18 23:36:42 2022 - ERROR - oe_test_criu.sh line 47
+Thu Aug 18 23:36:43 2022 - ERROR - oe_test_criu.sh line 50
+25
+Thu Aug 18 23:36:43 2022 - INFO  - Finish test!
+Thu Aug 18 23:36:44 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:36:45 2022 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Last metadata expiration check: 1:54:39 ago on Thu 18 Aug 2022 09:41:56 PM CST.\nNo match for argument: criu\nPackage gcc-10.3.1-10.oe2203.riscv64 is already installed.\nError: Unable to find a match: criu'
+Thu Aug 18 23:36:48 2022 - INFO  - Finish environment cleanup!

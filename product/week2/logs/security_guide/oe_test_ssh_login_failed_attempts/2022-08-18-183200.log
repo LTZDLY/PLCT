@@ -1,0 +1,43 @@
+Thu Aug 18 18:32:03 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:32:06 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:32:07 2022 - INFO  - Start executing testcase.
+spawn ssh root@
+ssh: Could not resolve hostname : Name or service not known
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "*assword*" {
+                send "error_pwd\r"
+                }
+        }"
+Thu Aug 18 18:32:08 2022 - ERROR - Login succeeded, but the login should fail here.
+Thu Aug 18 18:32:09 2022 - ERROR - oe_test_ssh_login_failed_attempts.sh line 55
+Thu Aug 18 18:32:10 2022 - ERROR - Retry prompt not found.
+Thu Aug 18 18:32:11 2022 - ERROR - oe_test_ssh_login_failed_attempts.sh line 57
+spawn ssh root@
+ssh: Could not resolve hostname : Name or service not known
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "*assword*" {
+                send "\r"
+                }
+        }  "
+Thu Aug 18 18:32:12 2022 - ERROR - It should be locked for 1 minute after entering the wrong password for three times, but it is not locked here.
+Thu Aug 18 18:32:12 2022 - ERROR - oe_test_ssh_login_failed_attempts.sh line 82
+Thu Aug 18 18:32:13 2022 - ERROR - Retry prompt not found.
+Thu Aug 18 18:32:14 2022 - ERROR - oe_test_ssh_login_failed_attempts.sh line 84
+spawn ssh root@
+ssh: Could not resolve hostname : Name or service not known
+expect: spawn id exp5 not open
+    while executing
+"expect eof {
+            catch wait result
+            exit [lindex $result 3] 
+        }"
+Thu Aug 18 18:33:16 2022 - ERROR - Login failed.
+Thu Aug 18 18:33:16 2022 - ERROR - oe_test_ssh_login_failed_attempts.sh line 102
+Thu Aug 18 18:33:17 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:33:18 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:33:18 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:33:19 2022 - INFO  - Finish environment cleanup!

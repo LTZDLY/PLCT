@@ -1,0 +1,37 @@
+Thu Aug 18 15:12:21 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 15:13:15 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 15:13:16 2022 - INFO  - Start testing...
+Job for ctdb.service failed because the control process exited with error code.
+See "systemctl status ctdb.service" and "journalctl -xeu ctdb.service" for details.
+Thu Aug 18 15:13:17 2022 - ERROR - ctdb.service restart failed
+Thu Aug 18 15:13:17 2022 - ERROR - ../common/common_lib.sh line 34
+Thu Aug 18 15:13:24 2022 - ERROR - ctdb.service restart failed
+Thu Aug 18 15:13:25 2022 - ERROR - ../common/common_lib.sh line 37
+Thu Aug 18 15:13:31 2022 - ERROR - ctdb.service stop failed
+Thu Aug 18 15:13:32 2022 - ERROR - ../common/common_lib.sh line 42
+Job for ctdb.service failed because the control process exited with error code.
+See "systemctl status ctdb.service" and "journalctl -xeu ctdb.service" for details.
+Thu Aug 18 15:13:33 2022 - ERROR - ctdb.service start failed
+Thu Aug 18 15:13:33 2022 - ERROR - ../common/common_lib.sh line 44
+Thu Aug 18 15:13:40 2022 - ERROR - ctdb.service start failed
+Thu Aug 18 15:13:40 2022 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/ctdb.service
+Removed /etc/systemd/system/multi-user.target.wants/ctdb.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/ctdb.service’: No such file or directory
+Aug 18 15:13:16 openEuler-riscv64 ctdbd_wrapper[1609]: /usr/sbin/ctdbd: error while loading shared libraries: libgenrand-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:13:16 openEuler-riscv64 systemd[1]: ctdb.service: Control process exited, code=exited, status=1/FAILURE
+Aug 18 15:13:16 openEuler-riscv64 systemd[1]: ctdb.service: Failed with result 'exit-code'.
+Aug 18 15:13:16 openEuler-riscv64 systemd[1]: Failed to start CTDB.
+Aug 18 15:13:32 openEuler-riscv64 ctdbd_wrapper[1630]: /usr/sbin/ctdbd: error while loading shared libraries: libgenrand-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:13:32 openEuler-riscv64 systemd[1]: ctdb.service: Control process exited, code=exited, status=1/FAILURE
+Aug 18 15:13:32 openEuler-riscv64 systemd[1]: ctdb.service: Failed with result 'exit-code'.
+Aug 18 15:13:32 openEuler-riscv64 systemd[1]: Failed to start CTDB.
+Thu Aug 18 15:13:49 2022 - ERROR - There is an error message for the log of ctdb.service
+Thu Aug 18 15:13:50 2022 - ERROR - ../common/common_lib.sh line 28
+Job for ctdb.service failed because the control process exited with error code.
+See "systemctl status ctdb.service" and "journalctl -xeu ctdb.service" for details.
+Failed to reload ctdb.service: Job type reload is not applicable for unit ctdb.service.
+Thu Aug 18 15:13:51 2022 - INFO  - Finish test!
+Thu Aug 18 15:13:52 2022 - ERROR - failed to execute the case.
+Thu Aug 18 15:13:53 2022 - INFO  - start environment cleanup.
+Thu Aug 18 15:14:12 2022 - INFO  - Finish environment cleanup!

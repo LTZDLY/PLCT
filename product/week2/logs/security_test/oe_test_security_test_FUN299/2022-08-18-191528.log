@@ -1,0 +1,16 @@
+Thu Aug 18 19:15:31 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 19:15:32 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 19:15:33 2022 - INFO  - Start to run test.
+spawn passwd test
+Changing password for user test.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+New password: 
+Retype new password: 
+passwd: all authentication tokens updated successfully.
+passwd: all authentication tokens updated successfully.
+BAD PASSWORD: The password is shorter than 8 characters
+Thu Aug 18 19:15:34 2022 - INFO  - End to run test.
+Thu Aug 18 19:15:35 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 19:15:36 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 19:15:37 2022 - INFO  - End to restore the test environment.

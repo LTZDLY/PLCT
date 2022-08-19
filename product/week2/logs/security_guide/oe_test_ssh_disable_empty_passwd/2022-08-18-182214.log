@@ -1,0 +1,15 @@
+Thu Aug 18 18:22:17 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:22:17 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:22:18 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:22:18 2022 - ERROR - PermitEmptyPasswords is not no
+Thu Aug 18 18:22:19 2022 - ERROR - oe_test_ssh_disable_empty_passwd.sh line 31
+passwd: Note: deleting a password also unlocks the password.
+Removing password for user testuser.
+passwd: Success
+testuser NP 2022-08-18 0 99999 7 -1 (Empty password.)
+spawn ssh testuser@127.0.0.1
+testuser@127.0.0.1's password: testuser@127.0.0.1's password: 
+Thu Aug 18 18:22:50 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:22:51 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:22:52 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:22:53 2022 - INFO  - Finish environment cleanup!

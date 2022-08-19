@@ -1,0 +1,7 @@
+Thu Aug 18 22:50:43 2022 - INFO  - Start to run test.
+[    0.475643] syscon-poweroff: probe of soc:poweroff failed with error -16
+Thu Aug 18 22:50:44 2022 - ERROR - Dmesg has false information.
+Thu Aug 18 22:50:45 2022 - ERROR - oe_test_dmesg_messages_log.sh line 24
+grep: /var/log/messages: No such file or directory
+Thu Aug 18 22:50:45 2022 - ERROR - failed to execute the case.
+Thu Aug 18 22:50:46 2022 - INFO  - oe_test_dmesg_messages_log.sh post_test

@@ -1,0 +1,18 @@
+Fri Aug 19 00:04:10 2022 - INFO  - Start environment preparation.
+Fri Aug 19 00:04:11 2022 - INFO  - End of environmental preparation!
+Fri Aug 19 00:04:12 2022 - INFO  - Start testing...
+New password: Retype new password: Changing password for user testuser1.
+passwd: all authentication tokens updated successfully.
+spawn ssh testuser1@127.0.0.1 pwd
+The authenticity of host '127.0.0.1 (127.0.0.1)' can't be established.
+ED25519 key fingerprint is SHA256:1n0CFXrAX8fuZ14gu460bagoGPCZsIwGNebEVzNWvro.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.
+testuser1@127.0.0.1's password: 
+/home/testuser1
+/home/testuser1
+Fri Aug 19 00:04:15 2022 - INFO  - Finish test!
+Fri Aug 19 00:04:16 2022 - INFO  - succeed to execute the case.
+Fri Aug 19 00:04:16 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:04:17 2022 - INFO  - Finish environment cleanup!

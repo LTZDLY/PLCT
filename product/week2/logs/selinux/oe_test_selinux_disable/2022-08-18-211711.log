@@ -1,0 +1,26 @@
+Thu Aug 18 21:17:13 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 21:17:15 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Thu Aug 18 21:17:16 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 21:17:17 2022 - INFO  - Start executing testcase.
+Thu Aug 18 21:17:19 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Thu Aug 18 21:17:23 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Thu Aug 18 21:17:27 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Thu Aug 18 21:17:28 2022 - ERROR - oe_test_selinux_disable.sh line 36
+Thu Aug 18 21:17:28 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:17:29 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:17:29 2022 - INFO  - start environment cleanup.
+Thu Aug 18 21:17:32 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Thu Aug 18 21:17:34 2022 - ERROR - You need to check the environment configuration file to see if this node information exists.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Thu Aug 18 21:17:37 2022 - INFO  - Finish environment cleanup!

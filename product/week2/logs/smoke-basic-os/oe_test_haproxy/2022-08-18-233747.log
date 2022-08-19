@@ -1,0 +1,15 @@
+Thu Aug 18 23:37:50 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:39:09 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:39:09 2022 - INFO  - Start testing...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 80 after 36 ms: Connection refused
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  3929  100  3929    0     0   3111      0  0:00:01  0:00:01 --:--:--  3135
+Thu Aug 18 23:39:12 2022 - INFO  - Finish test!
+Thu Aug 18 23:39:13 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:39:14 2022 - INFO  - start environment cleanup.
+setenforce: SELinux is disabled
+Thu Aug 18 23:39:38 2022 - INFO  - Finish environment cleanup!

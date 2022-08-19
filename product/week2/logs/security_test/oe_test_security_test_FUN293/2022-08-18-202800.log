@@ -1,0 +1,10 @@
+Thu Aug 18 20:28:02 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 20:28:03 2022 - INFO  - Finish preparing the test environment.
+Thu Aug 18 20:28:04 2022 - INFO  - Start to run test.
+Changing password for user test.
+passwd: all authentication tokens updated successfully.
+test:$6$dDPfof0FgpVAcZYE$ywh6KE9FT7aLTg1Yc41xeSSwsZ/1ERZv3jMyirj2VVdDwa/1Xail2D2dHwxIU9tfh3yd.f4GPB0tIPu/KoA/G.:19222:0:99999:7:::
+Thu Aug 18 20:28:05 2022 - INFO  - End to run test.
+Thu Aug 18 20:28:05 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:28:06 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:28:07 2022 - INFO  - End to restore the test environment.

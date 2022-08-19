@@ -1,0 +1,9 @@
+Thu Aug 18 22:51:22 2022 - INFO  - Start to run test.
+Thu Aug 18 22:51:23 2022 - ERROR - No boot partition
+Thu Aug 18 22:51:24 2022 - ERROR - oe_test_partition.sh line 25
+└─vda1 254:1    0  10G  0 part /
+Thu Aug 18 22:51:25 2022 - ERROR - No swap partition
+Thu Aug 18 22:51:25 2022 - ERROR - oe_test_partition.sh line 29
+Thu Aug 18 22:51:26 2022 - INFO  - End to run test.
+Thu Aug 18 22:51:26 2022 - ERROR - failed to execute the case.
+Thu Aug 18 22:51:27 2022 - INFO  - oe_test_partition.sh post_test

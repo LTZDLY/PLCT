@@ -1,0 +1,12 @@
+Thu Aug 18 17:59:37 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:00:25 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:00:25 2022 - INFO  - Start testing...
+     Active: active (running) since Thu 2022-08-18 18:00:39 CST; 214ms ago
+/etc/systemd/system/multi-user.target.wants/tgtd.service
+Removed /etc/systemd/system/multi-user.target.wants/tgtd.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/tgtd.service’: No such file or directory
+     Active: active (running) since Thu 2022-08-18 18:00:39 CST; 13s ago
+Thu Aug 18 18:00:53 2022 - INFO  - Finish test!
+Thu Aug 18 18:00:53 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:00:54 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:01:19 2022 - INFO  - Finish environment cleanup!

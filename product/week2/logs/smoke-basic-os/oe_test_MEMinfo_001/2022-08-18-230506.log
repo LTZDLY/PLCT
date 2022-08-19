@@ -1,0 +1,14 @@
+Thu Aug 18 23:05:09 2022 - INFO  - Start testing...
+oe_test_MEMinfo_001.sh: line 24: lshw: command not found
+Thu Aug 18 23:05:09 2022 - ERROR - oe_test_MEMinfo_001.sh line 25
+oe_test_MEMinfo_001.sh: line 27: lshw: command not found
+Thu Aug 18 23:05:10 2022 - ERROR - oe_test_MEMinfo_001.sh line 28
+oe_test_MEMinfo_001.sh: line 30: lshw: command not found
+Thu Aug 18 23:05:11 2022 - ERROR - oe_test_MEMinfo_001.sh line 31
+oe_test_MEMinfo_001.sh: line 32: dmidecode: command not found
+oe_test_MEMinfo_001.sh: line 36: lshw: command not found
+Thu Aug 18 23:05:12 2022 - ERROR - oe_test_MEMinfo_001.sh line 37
+oe_test_MEMinfo_001.sh: line 39: dmidecode: command not found
+Thu Aug 18 23:05:12 2022 - INFO  - Finish test!
+Thu Aug 18 23:05:13 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:05:13 2022 - INFO  - oe_test_MEMinfo_001.sh post_test

@@ -1,0 +1,15 @@
+Thu Aug 18 17:42:57 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 17:43:59 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 17:44:00 2022 - INFO  - Start to run test.
+     Active: active (listening) since Thu 2022-08-18 17:44:00 CST; 5s ago
+     Active: inactive (dead)
+     Active: active (listening) since Thu 2022-08-18 17:44:12 CST; 5s ago
+/etc/systemd/system/sockets.target.wants/saned.socket
+Removed /etc/systemd/system/sockets.target.wants/saned.socket.
+find: ‘/etc/systemd/system/sockets.target.wants/saned.socket’: No such file or directory
+Failed to reload saned.socket: Job type reload is not applicable for unit saned.socket.
+     Active: active (listening) since Thu 2022-08-18 17:44:12 CST; 14s ago
+Thu Aug 18 17:44:27 2022 - INFO  - End of the test.
+Thu Aug 18 17:44:28 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 17:44:29 2022 - INFO  - start environment cleanup.
+Thu Aug 18 17:44:54 2022 - INFO  - Finish environment cleanup!

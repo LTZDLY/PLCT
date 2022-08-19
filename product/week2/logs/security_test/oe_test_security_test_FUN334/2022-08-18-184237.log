@@ -1,0 +1,7 @@
+Thu Aug 18 18:42:39 2022 - INFO  - Start to run test.
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    link/ether 52:54:00:12:34:56 brd ff:ff:ff:ff:ff:ff
+    link/sit 0.0.0.0 brd 0.0.0.0
+Thu Aug 18 18:42:40 2022 - INFO  - End to run test.
+Thu Aug 18 18:42:41 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:42:41 2022 - INFO  - oe_test_security_test_FUN334.sh post_test

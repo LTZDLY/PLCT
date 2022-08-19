@@ -1,0 +1,8 @@
+Thu Aug 18 19:29:11 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 19:29:12 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 19:29:13 2022 - INFO  - Start to run test.
+cat: /tmp/test.txt: Permission denied
+Thu Aug 18 19:29:15 2022 - INFO  - End to run test.
+Thu Aug 18 19:29:16 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 19:29:17 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 19:29:18 2022 - INFO  - End to restore the test environment.

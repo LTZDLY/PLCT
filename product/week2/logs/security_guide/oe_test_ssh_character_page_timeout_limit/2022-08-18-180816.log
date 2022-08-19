@@ -1,0 +1,16 @@
+Thu Aug 18 18:08:19 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:08:22 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:08:23 2022 - INFO  - Start executing testcase.
+#ClientAliveInterval 0
+spawn ssh root@
+ssh: Could not resolve hostname : Name or service not known
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "root*" {
+                send "pwd\r"
+                }
+        }"
+Thu Aug 18 18:14:24 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:14:24 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:14:25 2022 - INFO  - oe_test_ssh_character_page_timeout_limit.sh post_test

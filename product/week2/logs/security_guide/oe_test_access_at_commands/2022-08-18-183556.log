@@ -1,0 +1,16 @@
+Thu Aug 18 18:35:59 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:36:37 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:36:38 2022 - INFO  - Start executing testcase.
+testuser1:x:1001:1001::/home/testuser1:/bin/bash
+testuser2:x:1002:1002::/home/testuser2:/bin/bash
+testuser1
+testuser1
+uid=1001(testuser1) gid=1001(testuser1) groups=1001(testuser1)
+Garbled time
+uid=1002(testuser2) gid=1002(testuser2) groups=1002(testuser2)
+You do not have permission to use at.
+Thu Aug 18 18:36:47 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:36:48 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:36:48 2022 - INFO  - Start cleanning environment.
+mv: cannot stat '/etc/at.allow-bak': No such file or directory
+Thu Aug 18 18:37:07 2022 - INFO  - Finish environment cleanup!

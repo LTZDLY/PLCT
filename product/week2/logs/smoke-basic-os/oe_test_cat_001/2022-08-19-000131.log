@@ -1,0 +1,10 @@
+Fri Aug 19 00:01:34 2022 - INFO  - Start to prepare the test environment.
+Fri Aug 19 00:01:34 2022 - INFO  - End to prepare the test environment.
+Fri Aug 19 00:01:35 2022 - INFO  - Start testing...
+root:x:0:0:root:/root:/bin/bash
+1
+Usage: cat [OPTION]... [FILE]...
+Fri Aug 19 00:01:36 2022 - INFO  - Finish test!
+Fri Aug 19 00:01:36 2022 - INFO  - succeed to execute the case.
+Fri Aug 19 00:01:37 2022 - INFO  - Start to restore the test environment.
+Fri Aug 19 00:01:37 2022 - INFO  - End to restore the test environment.

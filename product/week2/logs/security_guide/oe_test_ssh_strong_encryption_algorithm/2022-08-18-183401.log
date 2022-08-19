@@ -1,0 +1,8 @@
+Thu Aug 18 18:34:03 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:34:04 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:34:05 2022 - ERROR - oe_test_ssh_strong_encryption_algorithm.sh line 25
+Thu Aug 18 18:34:06 2022 - ERROR - No safety reinforcement.
+Thu Aug 18 18:34:06 2022 - ERROR - oe_test_ssh_strong_encryption_algorithm.sh line 27
+Thu Aug 18 18:34:07 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:34:08 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:34:08 2022 - INFO  - oe_test_ssh_strong_encryption_algorithm.sh post_test

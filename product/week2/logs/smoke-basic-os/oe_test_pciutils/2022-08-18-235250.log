@@ -1,0 +1,15 @@
+Thu Aug 18 23:52:53 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:53:32 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:53:32 2022 - INFO  - Start testing...
+00:00.0 Host bridge: Red Hat, Inc. QEMU PCIe Host bridge
+00:01.0 VGA compatible controller: Virtio: Virtio GPU (rev 01)
+00:02.0 USB controller: Red Hat, Inc. QEMU XHCI Host Controller (rev 01)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 11  280k   11 31930    0     0  11613      0  0:00:24  0:00:02  0:00:22 11640 22  280k   22 63930    0     0  17583      0  0:00:16  0:00:03  0:00:13 17611 33  280k   33 95930    0     0  19978      0  0:00:14  0:00:04  0:00:10 20002 41  280k   41  117k    0     0  20916      0  0:00:13  0:00:05  0:00:08 24282 50  280k   50  140k    0     0  21739      0  0:00:13  0:00:06  0:00:07 30416 58  280k   58  163k    0     0  22017      0  0:00:13  0:00:07  0:00:06 27880 72  280k   72  203k    0     0  23899      0  0:00:12  0:00:08  0:00:04 28436 86  280k   86  242k    0     0  25802      0  0:00:11  0:00:09  0:00:02 31620 97  280k   97  273k    0     0  26108      0  0:00:10  0:00:10 --:--:-- 32070100  280k  100  280k    0     0  25895      0  0:00:11  0:00:11 --:--:-- 32054
+Done.
+00:00.0 Host bridge: Red Hat, Inc. QEMU PCIe Host bridge
+Thu Aug 18 23:53:45 2022 - INFO  - Finish test!
+Thu Aug 18 23:53:45 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:53:46 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:53:58 2022 - INFO  - Finish environment cleanup!

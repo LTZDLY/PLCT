@@ -1,0 +1,10 @@
+Fri Aug 19 00:01:53 2022 - INFO  - Start environment preparation.
+Fri Aug 19 00:02:31 2022 - INFO  - End of environmental preparation!
+Fri Aug 19 00:02:32 2022 - INFO  - Start testing...
+Fri Aug 19 00:02:32 2022 - ERROR - oe_test_numactl.sh line 31
+numactl: This system does not support NUMA policy
+Fri Aug 19 00:02:33 2022 - ERROR - oe_test_numactl.sh line 33
+Fri Aug 19 00:02:34 2022 - INFO  - Finish test!
+Fri Aug 19 00:02:34 2022 - ERROR - failed to execute the case.
+Fri Aug 19 00:02:35 2022 - INFO  - start environment cleanup.
+Fri Aug 19 00:02:52 2022 - INFO  - Finish environment cleanup!

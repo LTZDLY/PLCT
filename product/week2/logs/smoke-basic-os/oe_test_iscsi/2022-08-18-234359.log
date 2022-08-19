@@ -1,0 +1,59 @@
+Thu Aug 18 23:44:02 2022 - INFO  - Start to config params of the case.
+Thu Aug 18 23:44:02 2022 - INFO  - End to config params of the case.
+Thu Aug 18 23:44:03 2022 - INFO  - Start environment preparation.
+10+0 records in
+10+0 records out
+10485760 bytes (10 MB, 10 MiB) copied, 0.208242 s, 50.4 MB/s
+10+0 records in
+10+0 records out
+10485760 bytes (10 MB, 10 MiB) copied, 0.206597 s, 50.8 MB/s
+Unit firewalld.service could not be found.
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+Thu Aug 18 23:45:01 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:45:02 2022 - INFO  - Start testing...
+Warning: Could not load preferences file /root/.targetcli/prefs.bin.
+Could not load module: configfs
+Could not load module: configfs
+Could not load module: configfs
+Could not load module: configfs
+Could not load module: configfs
+Could not load module: configfs
+Could not load module: configfs
+Job for target.service failed because the control process exited with error code.
+See "systemctl status target.service" and "journalctl -xeu target.service" for details.
+Thu Aug 18 23:45:29 2022 - ERROR - oe_test_iscsi.sh line 53
+Job for iscsid.service failed because the control process exited with error code.
+See "systemctl status iscsid.service" and "journalctl -xeu iscsid.service" for details.
+Thu Aug 18 23:45:30 2022 - ERROR - oe_test_iscsi.sh line 56
+iscsiadm: read error (-1/104), daemon died?
+iscsiadm: Could not scan /sys/class/iscsi_transport.
+libkmod: kmod_module_insert_module: could not find module by name='iscsi_tcp'
+iscsiadm: Could not insert module tcp. Kmod error -2
+iscsiadm: iSCSI driver tcp is not loaded. Load the module then retry the command.
+iscsiadm: Could not perform SendTargets discovery: iSCSI driver not found. Please make sure it is loaded, and retry the operation
+iscsiadm: No records found
+Thu Aug 18 23:45:31 2022 - ERROR - oe_test_iscsi.sh line 59
+Job for multipathd.service failed because the control process exited with error code.
+See "systemctl status multipathd.service" and "journalctl -xeu multipathd.service" for details.
+Thu Aug 18 23:45:32 2022 - ERROR - oe_test_iscsi.sh line 61
+/dev/mapper/control: open failed: No such device
+Failure to communicate with kernel device-mapper driver.
+Check that device-mapper is available in the kernel.
+Incompatible libdevmapper 1.02.181 (2021-10-20) and kernel driver (unknown version).
+14984.103385 | cannot get kernel dm version
+/dev/mapper/control: open failed: No such device
+Failure to communicate with kernel device-mapper driver.
+Check that device-mapper is available in the kernel.
+Incompatible libdevmapper 1.02.181 (2021-10-20) and kernel driver (unknown version).
+14987.960530 | cannot get kernel dm version
+/dev/mapper/control: open failed: No such device
+Failure to communicate with kernel device-mapper driver.
+Check that device-mapper is available in the kernel.
+Incompatible libdevmapper 1.02.181 (2021-10-20) and kernel driver (unknown version).
+14988.130518 | cannot get kernel dm version
+Thu Aug 18 23:45:37 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:45:37 2022 - INFO  - start environment cleanup.
+iscsiadm: No matching sessions found
+iscsiadm: No records found
+Could not load module: configfs
+Thu Aug 18 23:46:05 2022 - INFO  - Finish environment cleanup!

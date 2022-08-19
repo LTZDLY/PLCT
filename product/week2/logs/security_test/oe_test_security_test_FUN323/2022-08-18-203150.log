@@ -1,0 +1,11 @@
+Thu Aug 18 20:31:53 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 20:31:54 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 20:31:55 2022 - INFO  - Start to run test.
+/home/tester1
+grep: /var/log/secure: No such file or directory
+Thu Aug 18 20:31:57 2022 - ERROR - grep failed
+Thu Aug 18 20:31:58 2022 - ERROR - oe_test_security_test_FUN323.sh line 37
+Thu Aug 18 20:31:58 2022 - INFO  - End to run test.
+Thu Aug 18 20:31:59 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:31:59 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:32:00 2022 - INFO  - End to restore the test environment.

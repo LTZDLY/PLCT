@@ -1,0 +1,9 @@
+Thu Aug 18 20:13:11 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 20:13:12 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 20:13:13 2022 - INFO  - Start to run test.
+root     pts/0        2022-08-18 19:36 (192.168.1.2)
+root     pts/0        2022-08-18 19:36 (192.168.1.2)
+Thu Aug 18 20:13:16 2022 - INFO  - End to run test.
+Thu Aug 18 20:13:17 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:13:18 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:13:19 2022 - INFO  - End to restore the test environment.

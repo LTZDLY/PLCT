@@ -1,0 +1,4 @@
+Thu Aug 18 23:58:46 2022 - INFO  - Start to run test.
+Thu Aug 18 23:58:47 2022 - INFO  - End to run test.
+Thu Aug 18 23:58:47 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:58:48 2022 - INFO  - oe_test_syslog_dmesg_001.sh post_test

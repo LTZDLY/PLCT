@@ -1,0 +1,13 @@
+Thu Aug 18 23:58:54 2022 - INFO  - Start to run test.
+ls: cannot access '/var/log/messages': No such file or directory
+Thu Aug 18 23:58:55 2022 - ERROR - oe_test_syslog_logrotate_001.sh line 25
+mv: cannot stat '/etc/logrotate.d/rsyslog': No such file or directory
+error: stat of /var/log/messages failed: No such file or directory
+Thu Aug 18 23:58:55 2022 - ERROR - oe_test_syslog_logrotate_001.sh line 43
+ls: cannot access '/var/log/messages-*.gz': No such file or directory
+Thu Aug 18 23:58:56 2022 - ERROR - oe_test_syslog_logrotate_001.sh line 45
+Thu Aug 18 23:58:57 2022 - INFO  - End to run test.
+Thu Aug 18 23:58:57 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:58:58 2022 - INFO  - Start to restore the test environment.
+mv: cannot stat '/etc/logrotate.d/rsyslog_bak': No such file or directory
+Thu Aug 18 23:58:59 2022 - INFO  - End to restore the test environment.

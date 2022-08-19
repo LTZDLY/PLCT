@@ -1,0 +1,31 @@
+Thu Aug 18 18:28:43 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:28:44 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:28:45 2022 - INFO  - Start executing testcase.
+0022
+drwxr-xr-x 2 root root  40 Aug 18 18:28 test_dir1
+-rw-r--r-- 1 root root   0 Aug 18 18:28 test_file1
+spawn su test1
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:28:46 PM CST 2022
+
+System load: 	[0;33;40m1.39[0m
+Processes: 	81
+Memory used: 	1.4%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	1
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test1@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_umask_defaultumask | grep 0002
+[?2004h[test1@openEuler-riscv64 oe_test_umask_default]$ umask | grep 0002
+[?2004l[01;31m[K0002[m[K
+]0;test1@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_umask_default[?2004h[test1@openEuler-riscv64 oe_test_umask_default]$ mkdir /tmp/test_dir2;touch /tmp/test_file2
+[?2004l]0;test1@openEuler-riscv64:/root/mugen-riscv/testcases/doc-test/security_guide/oe_test_umask_defaultdrwxrwxr-x 2 test1 test1  40 Aug 18 18:28 test_dir2
+-rw-rw-r-- 1 test1 test1   0 Aug 18 18:28 test_file2
+Thu Aug 18 18:28:58 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:28:58 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:28:59 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:29:00 2022 - INFO  - Finish environment cleanup!

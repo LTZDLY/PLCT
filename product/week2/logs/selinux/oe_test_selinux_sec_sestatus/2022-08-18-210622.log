@@ -1,0 +1,24 @@
+Thu Aug 18 21:06:25 2022 - INFO  - Start executing testcase.
+oe_test_selinux_sec_sestatus.sh: line 25: sestatus: command not found
+Thu Aug 18 21:06:26 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 26
+oe_test_selinux_sec_sestatus.sh: line 27: sestatus: command not found
+Thu Aug 18 21:06:26 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 28
+oe_test_selinux_sec_sestatus.sh: line 29: sestatus: command not found
+Thu Aug 18 21:06:27 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 30
+oe_test_selinux_sec_sestatus.sh: line 31: sestatus: command not found
+Thu Aug 18 21:06:28 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 32
+oe_test_selinux_sec_sestatus.sh: line 33: sestatus: command not found
+Thu Aug 18 21:06:28 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 34
+oe_test_selinux_sec_sestatus.sh: line 35: sestatus: command not found
+Thu Aug 18 21:06:29 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 36
+oe_test_selinux_sec_sestatus.sh: line 37: sestatus: command not found
+Thu Aug 18 21:06:30 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 38
+oe_test_selinux_sec_sestatus.sh: line 39: sestatus: command not found
+Thu Aug 18 21:06:30 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 40
+oe_test_selinux_sec_sestatus.sh: line 41: sestatus: command not found
+Thu Aug 18 21:06:31 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 42
+oe_test_selinux_sec_sestatus.sh: line 43: sestatus: command not found
+Thu Aug 18 21:06:31 2022 - ERROR - oe_test_selinux_sec_sestatus.sh line 44
+Thu Aug 18 21:06:32 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:06:33 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:06:33 2022 - INFO  - oe_test_selinux_sec_sestatus.sh post_test

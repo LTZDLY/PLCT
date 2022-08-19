@@ -1,0 +1,26 @@
+Thu Aug 18 18:34:15 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:34:15 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:34:16 2022 - INFO  - Start executing testcase.
+PermitRootLogin no
+spawn ssh root@127.0.0.1
+The authenticity of host '127.0.0.1 (127.0.0.1)' can't be established.
+ED25519 key fingerprint is SHA256:1n0CFXrAX8fuZ14gu460bagoGPCZsIwGNebEVzNWvro.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.
+root@127.0.0.1's password: 
+Permission denied, please try again.
+root@127.0.0.1's password: 
+Permission denied, please try again.
+root@127.0.0.1's password: 
+root@127.0.0.1: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).
+openEuler12#$
+expect: spawn id exp5 not open
+    while executing
+"expect eof"
+Permission denied, please try again.
+Permission denied, please try again.
+Thu Aug 18 18:34:28 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:34:29 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 18:34:29 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:34:31 2022 - INFO  - Finish environment cleanup!

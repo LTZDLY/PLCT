@@ -1,0 +1,19 @@
+Thu Aug 18 20:31:42 2022 - INFO  - Start to run test.
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Thu Aug 18 20:31:43 2022 - ERROR - add failed
+Thu Aug 18 20:31:43 2022 - ERROR - oe_test_security_test_FUN332.sh line 26
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Thu Aug 18 20:31:44 2022 - ERROR - delete failed
+Thu Aug 18 20:31:44 2022 - ERROR - oe_test_security_test_FUN332.sh line 28
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Thu Aug 18 20:31:45 2022 - ERROR - clean failed
+Thu Aug 18 20:31:46 2022 - ERROR - oe_test_security_test_FUN332.sh line 30
+Thu Aug 18 20:31:46 2022 - INFO  - End to run test.
+Thu Aug 18 20:31:47 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:31:47 2022 - INFO  - oe_test_security_test_FUN332.sh post_test

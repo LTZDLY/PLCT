@@ -1,0 +1,62 @@
+Thu Aug 18 18:40:12 2022 - INFO  - Start environmental preparation.
+ls: cannot access 'log': No such file or directory
+ls: cannot access 'testlog': No such file or directory
+Thu Aug 18 18:40:13 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:40:13 2022 - INFO  - Start executing testcase.
+New password: Retype new password: Changing password for user test.
+passwd: all authentication tokens updated successfully.
+Mon Aug 22 06:40:14 PM CST 2022
+spawn ssh test@127.0.0.1
+The authenticity of host '127.0.0.1 (127.0.0.1)' can't be established.
+ED25519 key fingerprint is SHA256:1n0CFXrAX8fuZ14gu460bagoGPCZsIwGNebEVzNWvro.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '127.0.0.1' (ED25519) to the list of known hosts.
+test@127.0.0.1's password: 
+Last failed login: Thu Aug 18 18:05:36 CST 2022 from 127.0.0.1 on ssh:notty
+There were 6 failed login attempts since the last successful login.
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:40:18 PM CST 2022
+
+System load: 	[0;33;40m1.14[0m
+Processes: 	93
+Memory used: 	1.9%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test@openEuler-riscv64:~[?2004h[test@openEuler-riscv64 ~]$ exit
+[?2004llogout
+Connection to 127.0.0.1 closed.
+Thu Aug 18 18:40:19 2022 - ERROR - oe_test_set_password_validity.sh line 53
+Sat Aug 20 06:40:19 PM CST 2022
+spawn ssh test@127.0.0.1
+test@127.0.0.1's password: 
+Last login: Thu Aug 18 18:40:15 2022 from 127.0.0.1
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:40:35 PM CST 2022
+
+System load: 	[0;33;40m1.10[0m
+Processes: 	92
+Memory used: 	1.5%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test@openEuler-riscv64:~[?2004h[test@openEuler-riscv64 ~]$ exit
+[?2004llogout
+Connection to 127.0.0.1 closed.
+Thu Aug 18 18:41:19 2022 - ERROR - oe_test_set_password_validity.sh line 92
+Thu Aug 18 18:41:20 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:41:21 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:41:21 2022 - INFO  - start environment cleanup.
+Fri Aug 12 06:41:22 PM CST 2022
+Thu Aug 18 18:41:22 2022 - INFO  - Finish environment cleanup!

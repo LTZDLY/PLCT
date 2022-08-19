@@ -1,0 +1,6 @@
+Thu Aug 18 23:05:01 2022 - INFO  - Start environment preparation
+ls: cannot access '/tmp/name1': No such file or directory
+ls: cannot access '/tmp/name2': No such file or directory
+Thu Aug 18 23:05:02 2022 - INFO  - End of enviornment preparation
+Thu Aug 18 23:05:03 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:05:03 2022 - INFO  - Finish environment cleanup!

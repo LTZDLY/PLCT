@@ -1,0 +1,8 @@
+Thu Aug 18 21:17:43 2022 - INFO  - Start executing testcase.
+Error opening /var/log/audit/audit.log (No such file or directory)
+Thu Aug 18 21:17:43 2022 - ERROR - oe_test_selinux_audit.sh line 27
+Thu Aug 18 21:17:44 2022 - ERROR - oe_test_selinux_audit.sh line 29
+Thu Aug 18 21:17:45 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:17:45 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:17:46 2022 - INFO  - start environment cleanup.
+Thu Aug 18 21:17:47 2022 - INFO  - Finish environment cleanup!

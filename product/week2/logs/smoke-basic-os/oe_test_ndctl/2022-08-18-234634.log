@@ -1,0 +1,8 @@
+Thu Aug 18 23:46:37 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:47:16 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:47:17 2022 - INFO  - Start testing...
+help
+Thu Aug 18 23:47:18 2022 - INFO  - Finish test!
+Thu Aug 18 23:47:18 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:47:19 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:47:35 2022 - INFO  - Finish environment cleanup!

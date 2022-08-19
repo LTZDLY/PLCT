@@ -1,0 +1,29 @@
+Thu Aug 18 20:57:27 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 20:58:13 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 20:58:13 2022 - INFO  - Start executing testcase.
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 20:58:17 2022 - ERROR - Check semanage nfs off failed
+Thu Aug 18 20:58:18 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 32
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 20:58:22 2022 - ERROR - Check semanage cifs off failed
+Thu Aug 18 20:58:23 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 34
+getsebool:  SELinux is disabled
+Thu Aug 18 20:58:23 2022 - ERROR - Check getsebool nfs off failed
+Thu Aug 18 20:58:24 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 36
+getsebool:  SELinux is disabled
+Thu Aug 18 20:58:25 2022 - ERROR - Check getsebool cifs off failed
+Thu Aug 18 20:58:25 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 38
+Could not change active booleans: Invalid boolean
+Could not change active booleans: Invalid boolean
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 20:58:29 2022 - ERROR - Check semanage nfs on failed
+Thu Aug 18 20:58:30 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 42
+ValueError: SELinux policy is not managed or store cannot be accessed.
+Thu Aug 18 20:58:34 2022 - ERROR - Check semanage cifs on failed
+Thu Aug 18 20:58:35 2022 - ERROR - oe_test_selinux_sharing_nfs_cifs_using_booleans.sh line 44
+Thu Aug 18 20:58:35 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 20:58:36 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:58:36 2022 - INFO  - start environment cleanup.
+Could not change active booleans: Invalid boolean
+Could not change active booleans: Invalid boolean
+Thu Aug 18 20:58:54 2022 - INFO  - Finish environment cleanup!

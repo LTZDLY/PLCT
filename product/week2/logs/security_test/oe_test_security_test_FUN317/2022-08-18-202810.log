@@ -1,0 +1,11 @@
+Thu Aug 18 20:28:13 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 20:28:14 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 20:28:15 2022 - INFO  - Start to run test.
+-rw-r--r-- 1 tester1 tester1 0 Aug 18 20:28 test1.txt
+-bash: line 1: /home/tester1/test.txt: Permission denied
+I LOVE YOU
+-bash: line 1: /etc/sudoers: Permission denied
+Thu Aug 18 20:28:23 2022 - INFO  - End to run test.
+Thu Aug 18 20:28:23 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:28:24 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:28:25 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,29 @@
+Thu Aug 18 23:48:27 2022 - INFO  - Start to config params of the case.
+Thu Aug 18 23:48:27 2022 - INFO  - End to config params of the case.
+Thu Aug 18 23:48:28 2022 - INFO  - Start environment preparation.
+Thu Aug 18 23:49:24 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:49:25 2022 - INFO  - Start testing...
+A dependency job for nfs-server.service failed. See 'journalctl -xe' for details.
+Thu Aug 18 23:49:26 2022 - ERROR - oe_test_nfs.sh line 45
+Thu Aug 18 23:49:27 2022 - ERROR - oe_test_nfs.sh line 47
+     Active: active (running) since Thu 2022-08-18 23:49:27 CST; 161ms ago
+clnt_create: RPC: Program not registered
+Thu Aug 18 23:49:28 2022 - ERROR - oe_test_nfs.sh line 53
+mount.nfs4: Connection refused
+Thu Aug 18 23:51:35 2022 - ERROR - oe_test_nfs.sh line 55
+diff: /home/nfs_server_15178/file: No such file or directory
+Thu Aug 18 23:51:36 2022 - ERROR - oe_test_nfs.sh line 58
+cat: /home/nfs_client_15178/file: Permission denied
+Operation to request attribute not supported: /home/nfs_client_15178/file
+Failed to instantiate ACL.
+Thu Aug 18 23:51:37 2022 - ERROR - oe_test_nfs.sh line 65
+Operation to request attribute not supported: /home/nfs_client_15178/file
+Thu Aug 18 23:51:37 2022 - ERROR - oe_test_nfs.sh line 67
+cat: /home/nfs_client_15178/file: Permission denied
+umount: /home/nfs_client_15178: not mounted.
+Thu Aug 18 23:51:38 2022 - ERROR - oe_test_nfs.sh line 70
+Thu Aug 18 23:51:39 2022 - INFO  - Finish test!
+Thu Aug 18 23:51:40 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:51:40 2022 - INFO  - start environment cleanup.
+umount: /home/nfs_client_15178: not mounted.
+Thu Aug 18 23:52:04 2022 - INFO  - Finish environment cleanup!

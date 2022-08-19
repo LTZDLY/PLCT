@@ -1,0 +1,54 @@
+Thu Aug 18 18:37:33 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 18:37:34 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:37:34 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:37:35 2022 - ERROR - StrictModes is not yes
+Thu Aug 18 18:37:36 2022 - ERROR - oe_test_ssh_check_home.sh line 30
+New password: Retype new password: Changing password for user testuser.
+passwd: all authentication tokens updated successfully.
+drwx------ 2 root  root  4096 Aug 18 18:37 testuser
+spawn ssh testuser@127.0.0.1
+testuser@127.0.0.1's password: 
+Last failed login: Thu Aug 18 18:16:47 CST 2022 from 127.0.0.1 on ssh:notty
+There were 6 failed login attempts since the last successful login.
+Could not chdir to home directory /home/testuser: Permission denied
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:37:55 PM CST 2022
+
+System load: 	[0;33;40m1.08[0m
+Processes: 	89
+Memory used: 	1.5%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+-bash: /home/testuser/.bash_profile: Permission denied
+]0;testuser@openEuler-riscv64:/[?2004h[testuser@openEuler-riscv64 /]$ Could not chdir to home directory /home/testuser: Permission denied
+d-w------- 2 root  root  4096 Aug 18 18:37 testuser
+spawn ssh testuser@127.0.0.1
+testuser@127.0.0.1's password: 
+Last login: Thu Aug 18 18:37:53 2022 from 127.0.0.1
+Could not chdir to home directory /home/testuser: Permission denied
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 06:38:26 PM CST 2022
+
+System load: 	[0;33;40m0.93[0m
+Processes: 	90
+Memory used: 	1.5%
+Swap used: 	0.0%
+Usage On: 	35%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+-bash: /home/testuser/.bash_profile: Permission denied
+]0;testuser@openEuler-riscv64:/[?2004h[testuser@openEuler-riscv64 /]$ Could not chdir to home directory /home/testuser: Permission denied
+Thu Aug 18 18:38:39 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:38:40 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:38:40 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:38:41 2022 - INFO  - Finish environment cleanup!

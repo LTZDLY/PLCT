@@ -1,0 +1,8 @@
+Thu Aug 18 22:51:33 2022 - INFO  - Start to prepare the test environment.
+Thu Aug 18 22:52:13 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 22:52:14 2022 - INFO  - Start to run test.
+Disabled
+Thu Aug 18 22:52:15 2022 - INFO  - End to run test.
+Thu Aug 18 22:52:15 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 22:52:16 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 22:52:32 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,16 @@
+Thu Aug 18 18:27:39 2022 - INFO  - Start executing testcase.
+spawn ssh root@
+ssh: Could not resolve hostname : Name or service not known
+expect: spawn id exp5 not open
+    while executing
+"expect {
+            "*root*" {
+                send "exit\r"
+                }
+        }     "
+Thu Aug 18 18:27:40 2022 - ERROR - Login failed.
+Thu Aug 18 18:27:41 2022 - ERROR - oe_test_ssh_prohibit_root_login_system_through_ssh.sh line 41
+Thu Aug 18 18:27:41 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:27:42 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:27:43 2022 - INFO  - Start cleanning environment.
+Thu Aug 18 18:27:43 2022 - INFO  - Finish environment cleanup!

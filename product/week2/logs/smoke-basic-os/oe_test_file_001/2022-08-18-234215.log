@@ -1,0 +1,7 @@
+Thu Aug 18 23:42:18 2022 - INFO  - Start testing...
+/etc/passwd: ASCII text
+/etc/passwd: ASCII text
+Usage: file [OPTION...] [FILE...]
+Thu Aug 18 23:42:32 2022 - INFO  - Finish test!
+Thu Aug 18 23:42:33 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 23:42:33 2022 - INFO  - oe_test_file_001.sh post_test

@@ -1,0 +1,32 @@
+Thu Aug 18 21:01:30 2022 - INFO  - Start environmental preparation.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:31 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:01:31 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 21:01:32 2022 - INFO  - Start executing testcase.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:32 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:35 2022 - ERROR - Failed in remote CMD operation:1
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:38 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:49 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:01:50 2022 - ERROR - oe_test_selinux_change_enforcing.sh line 38
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:51 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:01:51 2022 - ERROR - oe_test_selinux_change_enforcing.sh line 40
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:52 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 21:01:53 2022 - ERROR - oe_test_selinux_change_enforcing.sh line 42
+Thu Aug 18 21:01:53 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 21:01:54 2022 - ERROR - failed to execute the case.
+Thu Aug 18 21:01:54 2022 - INFO  - start environment cleanup.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:55 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:56 2022 - ERROR - Failed in remote CMD operation:1
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 21:01:57 2022 - ERROR - Failed in remote CMD operation:1
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 126, in <module>
+    sys.exit(reboot_wait(args.node, args.waittime))
+  File "/root/mugen-riscv/libs/locallibs/remote_reboot.py", line 62, in reboot_wait
+    "ping -c 3 -w 3 " + os.environ.get("NODE" + str(node) + "_IPV4")
+TypeError: can only concatenate str (not "NoneType") to str
+Thu Aug 18 21:01:59 2022 - INFO  - Finish environment cleanup!

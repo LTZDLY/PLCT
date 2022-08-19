@@ -1,0 +1,19 @@
+Thu Aug 18 18:33:39 2022 - INFO  - Start environmental preparation.
+test1:x:1001:1001::/home/test1:/bin/bash
+test2:x:1002:1002::/home/test2:/bin/bash
+Thu Aug 18 18:33:40 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 18:33:41 2022 - INFO  - Start executing testcase.
+#auth		required	pam_wheel.so use_uid
+New password: Retype new password: Changing password for user test1.
+passwd: all authentication tokens updated successfully.
+New password: Retype new password: Changing password for user test2.
+passwd: all authentication tokens updated successfully.
+test2 : test2 wheel
+Password: su: Permission denied
+Password: su: Permission denied
+Thu Aug 18 18:33:54 2022 - ERROR - check su test2 failed
+Thu Aug 18 18:33:54 2022 - ERROR - oe_test_restrict_accounts_use_su.sh line 52
+Thu Aug 18 18:33:55 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:33:55 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:33:56 2022 - INFO  - start environment cleanup.
+Thu Aug 18 18:33:57 2022 - INFO  - Finish environment cleanup!

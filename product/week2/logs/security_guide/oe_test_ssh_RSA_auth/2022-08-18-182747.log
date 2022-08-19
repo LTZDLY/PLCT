@@ -1,0 +1,125 @@
+Thu Aug 18 18:27:50 2022 - INFO  - Start executing testcase.
+Thu Aug 18 18:27:50 2022 - ERROR - RSAAuthentication is not yes
+Thu Aug 18 18:27:51 2022 - ERROR - oe_test_ssh_RSA_auth.sh line 24
+spawn ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa
+Your public key has been saved in /root/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:y8zW+cgPydbE4vsJivaZ1idKebCW6KQcTgn1SlT98KU root@openEuler-riscv64
+The key's randomart image is:
++---[RSA 3072]----+
+|      ..         |
+|     .  o   .    |
+|    o    + o     |
+|   o .    E.     |
+|  . . . S . o    |
+|   o o = X *     |
+|    = o %.@ .    |
+|   + =.=.Bo*..   |
+|    +.oo*.+==    |
++----[SHA256]-----+
+-rw------- 1 root root 2610 Aug 18 18:27 id_rsa
+-rw-r--r-- 1 root root  576 Aug 18 18:27 id_rsa.pub
+spawn ssh-copy-id -i /root/.ssh/id_rsa.pub @
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_rsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+ERROR:            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+ERROR:            [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+ERROR:            [-i identity_file] [-J [user@]host[:port]] [-L address]
+ERROR:            [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+ERROR:            [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+ERROR:            [-w local_tun[:remote_tun]] destination [command [argument ...]]
+
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "password" {
+            	send "\r"
+            }
+        }"
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:27:56 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:27:57 2022 - ERROR - NODE2 grep ssh-rsa /root/.ssh/authorized_keys failed
+Thu Aug 18 18:27:57 2022 - ERROR - oe_test_ssh_RSA_auth.sh line 63
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp5 not open
+    while executing
+"expect eof"
+Thu Aug 18 18:27:58 2022 - ERROR - ssh log failed
+Thu Aug 18 18:27:59 2022 - ERROR - oe_test_ssh_RSA_auth.sh line 76
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:28:00 2022 - ERROR - Failed in remote CMD operation:1
+spawn ssh-keygen -t dsa
+Generating public/private dsa key pair.
+Enter file in which to save the key (/root/.ssh/id_dsa): 
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_dsa
+Your public key has been saved in /root/.ssh/id_dsa.pub
+The key fingerprint is:
+SHA256:GpOYXIGf5pGPo22lh19R0pztAsfOg96MiZwr1g+8S/s root@openEuler-riscv64
+The key's randomart image is:
++---[DSA 1024]----+
+|     ..          |
+|    .  .   + o   |
+|     ..o  o B .  |
+|   . +*.   O .   |
+|    +o++S o = .  |
+|      +*o+ * o   |
+|     o.*B = o    |
+|    . B.o*       |
+|     o +*+E      |
++----[SHA256]-----+
+-rw------- 1 root root 1393 Aug 18 18:28 id_dsa
+-rw-r--r-- 1 root root  612 Aug 18 18:28 id_dsa.pub
+spawn ssh-copy-id -i /root/.ssh/id_dsa.pub @
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/root/.ssh/id_dsa.pub"
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+
+/usr/bin/ssh-copy-id: ERROR: usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+ERROR:            [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+ERROR:            [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+ERROR:            [-i identity_file] [-J [user@]host[:port]] [-L address]
+ERROR:            [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+ERROR:            [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+ERROR:            [-w local_tun[:remote_tun]] destination [command [argument ...]]
+
+expect: spawn id exp4 not open
+    while executing
+"expect {
+            "password" {
+                send "\r"
+            }
+        }"
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:28:03 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:28:04 2022 - ERROR - NODE2 grep ssh-dss /root/.ssh/authorized_keys failed
+Thu Aug 18 18:28:04 2022 - ERROR - oe_test_ssh_RSA_auth.sh line 116
+spawn ssh @
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+expect: spawn id exp5 not open
+    while executing
+"expect eof"
+Thu Aug 18 18:28:05 2022 - ERROR - Need password
+Thu Aug 18 18:28:06 2022 - ERROR - oe_test_ssh_RSA_auth.sh line 129
+Thu Aug 18 18:28:07 2022 - INFO  - Finish testcase execution.
+Thu Aug 18 18:28:07 2022 - ERROR - failed to execute the case.
+Thu Aug 18 18:28:08 2022 - INFO  - Start cleanning environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 18:28:09 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 18:28:09 2022 - INFO  - Finish environment cleanup!

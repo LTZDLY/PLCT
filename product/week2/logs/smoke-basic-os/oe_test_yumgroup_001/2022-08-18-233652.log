@@ -1,0 +1,26 @@
+Thu Aug 18 23:36:55 2022 - INFO  - Start environment preparation.
+Warning: Module or Group 'Network Servers' is not installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Thu Aug 18 23:37:02 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 23:37:03 2022 - INFO  - Start testing...
+Error: No group data available for configured repositories.
+Thu Aug 18 23:37:11 2022 - ERROR - oe_test_yumgroup_001.sh line 33
+Warning: Group Network Servers does not exist.
+Last metadata expiration check: 1:55:29 ago on Thu 18 Aug 2022 09:41:56 PM CST.
+Module or Group 'Network Servers' is not available.
+Error: Nothing to do.
+Thu Aug 18 23:37:26 2022 - ERROR - oe_test_yumgroup_001.sh line 36
+Last metadata expiration check: 1:55:37 ago on Thu 18 Aug 2022 09:41:56 PM CST.
+Module or Group 'Network Servers' is not available.
+Error: Nothing to do.
+Thu Aug 18 23:37:34 2022 - ERROR - oe_test_yumgroup_001.sh line 42
+Warning: Module or Group 'Network Servers' is not installed.
+Dependencies resolved.
+Nothing to do.
+Complete!
+Thu Aug 18 23:37:41 2022 - INFO  - Finish test!
+Thu Aug 18 23:37:42 2022 - ERROR - failed to execute the case.
+Thu Aug 18 23:37:42 2022 - INFO  - start environment cleanup.
+Thu Aug 18 23:37:43 2022 - INFO  - Finish environment cleanup!

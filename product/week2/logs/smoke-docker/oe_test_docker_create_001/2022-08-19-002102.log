@@ -1,0 +1,56 @@
+Fri Aug 19 00:21:05 2022 - INFO  - Start environment preparation.
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker stop" requires at least 1 argument.
+See 'docker stop --help'.
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+Stop one or more running containers
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+22.03-LTS
+--2022-08-19 00:23:23--  https://repo.openeuler.org/openEuler-22.03-LTS/docker_img/riscv64/openEuler-docker.riscv64.tar.xz
+Resolving repo.openeuler.org (repo.openeuler.org)... 49.0.230.196
+Connecting to repo.openeuler.org (repo.openeuler.org)|49.0.230.196|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-08-19 00:23:24 ERROR 404: Not Found.
+
+open ../common/openEuler-docker.riscv64.tar.xz: no such file or directory
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+Fri Aug 19 00:23:26 2022 - INFO  - start environment cleanup.
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker stop" requires at least 1 argument.
+See 'docker stop --help'.
+
+Usage:  docker stop [OPTIONS] CONTAINER [CONTAINER...]
+
+Stop one or more running containers
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker rm" requires at least 1 argument.
+See 'docker rm --help'.
+
+Usage:  docker rm [OPTIONS] CONTAINER [CONTAINER...]
+
+Remove one or more containers
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+Fri Aug 19 00:23:48 2022 - INFO  - Finish environment cleanup.

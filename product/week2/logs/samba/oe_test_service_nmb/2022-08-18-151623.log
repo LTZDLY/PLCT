@@ -1,0 +1,40 @@
+Thu Aug 18 15:16:26 2022 - INFO  - Start environmental preparation.
+Thu Aug 18 15:17:20 2022 - INFO  - End of environmental preparation!
+Thu Aug 18 15:17:20 2022 - INFO  - Start testing...
+Job for nmb.service failed because the control process exited with error code.
+See "systemctl status nmb.service" and "journalctl -xeu nmb.service" for details.
+Thu Aug 18 15:17:21 2022 - ERROR - nmb.service restart failed
+Thu Aug 18 15:17:22 2022 - ERROR - ../common/common_lib.sh line 34
+Thu Aug 18 15:17:28 2022 - ERROR - nmb.service restart failed
+Thu Aug 18 15:17:29 2022 - ERROR - ../common/common_lib.sh line 37
+Thu Aug 18 15:17:36 2022 - ERROR - nmb.service stop failed
+Thu Aug 18 15:17:36 2022 - ERROR - ../common/common_lib.sh line 42
+Job for nmb.service failed because the control process exited with error code.
+See "systemctl status nmb.service" and "journalctl -xeu nmb.service" for details.
+Thu Aug 18 15:17:37 2022 - ERROR - nmb.service start failed
+Thu Aug 18 15:17:38 2022 - ERROR - ../common/common_lib.sh line 44
+Thu Aug 18 15:17:44 2022 - ERROR - nmb.service start failed
+Thu Aug 18 15:17:45 2022 - ERROR - ../common/common_lib.sh line 47
+/etc/systemd/system/multi-user.target.wants/nmb.service
+Removed /etc/systemd/system/multi-user.target.wants/nmb.service.
+find: ‘/etc/systemd/system/multi-user.target.wants/nmb.service’: No such file or directory
+Aug 18 15:17:21 openEuler-riscv64 nmbd[2066]: /usr/sbin/nmbd: error while loading shared libraries: libmessages-util-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:17:21 openEuler-riscv64 systemd[1]: nmb.service: Failed with result 'exit-code'.
+Aug 18 15:17:21 openEuler-riscv64 systemd[1]: Failed to start Samba NMB Daemon.
+Aug 18 15:17:37 openEuler-riscv64 nmbd[2084]: /usr/sbin/nmbd: error while loading shared libraries: libmessages-util-samba4.so: cannot open shared object file: No such file or directory
+Aug 18 15:17:37 openEuler-riscv64 systemd[1]: nmb.service: Failed with result 'exit-code'.
+Aug 18 15:17:37 openEuler-riscv64 systemd[1]: Failed to start Samba NMB Daemon.
+Thu Aug 18 15:17:54 2022 - ERROR - There is an error message for the log of nmb.service
+Thu Aug 18 15:17:55 2022 - ERROR - ../common/common_lib.sh line 28
+Job for nmb.service failed because the control process exited with error code.
+See "systemctl status nmb.service" and "journalctl -xeu nmb.service" for details.
+nmb.service is not active, cannot reload.
+Thu Aug 18 15:18:00 2022 - ERROR - nmb.service reload failed
+Thu Aug 18 15:18:00 2022 - ERROR - oe_test_service_nmb.sh line 35
+Thu Aug 18 15:18:01 2022 - ERROR - nmb.service reload causes the service status to change
+Thu Aug 18 15:18:02 2022 - ERROR - oe_test_service_nmb.sh line 37
+Thu Aug 18 15:18:02 2022 - INFO  - Finish test!
+Thu Aug 18 15:18:03 2022 - ERROR - failed to execute the case.
+Thu Aug 18 15:18:04 2022 - INFO  - start environment cleanup.
+nmb.service is not active, cannot reload.
+Thu Aug 18 15:18:27 2022 - INFO  - Finish environment cleanup!

@@ -1,0 +1,36 @@
+Thu Aug 18 20:31:02 2022 - INFO  - Start to prepare the test environment.
+Changing password for user test.
+passwd: all authentication tokens updated successfully.
+Thu Aug 18 20:31:03 2022 - INFO  - End to prepare the test environment.
+Thu Aug 18 20:31:04 2022 - INFO  - Start to run test.
+spawn ssh test@localhost
+The authenticity of host 'localhost (::1)' can't be established.
+ED25519 key fingerprint is SHA256:1n0CFXrAX8fuZ14gu460bagoGPCZsIwGNebEVzNWvro.
+This host key is known by the following other names/addresses:
+    ~/.ssh/known_hosts:1: 127.0.0.1
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+test@localhost's password: 
+Permission denied, please try again.
+test@localhost's password: 
+Last failed login: Thu Aug 18 20:31:07 CST 2022 from ::1 on ssh:notty
+There were 7 failed login attempts since the last successful login.
+
+
+Welcome to 5.10.0
+
+System information as of time: 	Thu Aug 18 08:31:09 PM CST 2022
+
+System load: 	[0;33;40m1.48[0m
+Processes: 	88
+Memory used: 	1.5%
+Swap used: 	0.0%
+Usage On: 	37%
+IP address: 	192.168.1.1
+Users online: 	2
+To run a command as administrator(user "root"),use "sudo <command>".
+]0;test@openEuler-riscv64:~[?2004h[test@openEuler-riscv64 ~]$ There were 7 failed login attempts since the last successful login.
+Thu Aug 18 20:31:18 2022 - INFO  - End to run test.
+Thu Aug 18 20:31:19 2022 - INFO  - succeed to execute the case.
+Thu Aug 18 20:31:19 2022 - INFO  - Start to restore the test environment.
+Thu Aug 18 20:31:20 2022 - INFO  - End to restore the test environment.

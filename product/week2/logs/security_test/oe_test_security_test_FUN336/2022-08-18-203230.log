@@ -1,0 +1,7 @@
+Thu Aug 18 20:32:33 2022 - INFO  - Start to run test.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Aug 18 20:32:34 2022 - ERROR - Failed in remote CMD operation:1
+Thu Aug 18 20:32:35 2022 - ERROR - ssh failed
+Thu Aug 18 20:32:35 2022 - ERROR - oe_test_security_test_FUN336.sh line 26
+Thu Aug 18 20:32:36 2022 - INFO  - End to run test.
+Thu Aug 18 20:32:36 2022 - ERROR - failed to execute the case.
+Thu Aug 18 20:32:37 2022 - INFO  - oe_test_security_test_FUN336.sh post_test
